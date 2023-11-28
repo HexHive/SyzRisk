@@ -1,0 +1,91 @@
+#!/bin/bash
+
+### Front-end matching script.
+### command: kfc-risk <repo_path> -d <yyyy-mm-dd>:<yyyy-mm-dd> -n <name>
+
+THIS_DIR=$(dirname "${BASH_SOURCE[0]}" | xargs realpath)
+SCRIPT_DIR=$THIS_DIR/..
+DATA_DIR=$THIS_DIR/../../data
+MATCH_DB_DIR=$DATA_DIR/match/db
+RISK_DIR=$DATA_DIR/risk
+
+mkdir -p $MATCH_DB_DIR
+mkdir -p $RISK_DIR
+
+
+REPO_PATH=$1
+START_DATE="1990-01-01"
+END_DATE="2038-01-01"
+NO_DATE=1
+
+if [[ -z $REPO_PATH ]] || [[ $REPO_PATH =~ ^-.*$ ]]; then
+  REPO_PATH=$(cat $DATA_DIR/repo_path)
+  if [[ -z $REPO_PATH ]]; then
+    echo "usage: $0 [<repo_path>] [-d <yyyy-mm-dd>:<yyyy-mm-dd>] [-e <yyyy-mm-dd>]"
+    echo "          [-n <name>]"
+    echo "usage: <repo_path> is mandatory if it's not been set."
+    echo "usage: use 'kfc-repo' to set the repo path."
+    echo "usage:    <name> = risk profile name. (default: dates)"
+    exit
+  fi
+fi
+
+for i in "$@"; do
+  if [[ $1 == "-d" ]]; then
+    DATES=$2
+    START_DATE=${DATES%:*}
+    END_DATE=${DATES#*:}
+    unset NO_DATE
+    shift
+  elif [[ $1 == "-e" ]]; then
+    END_DATE=$2
+    unset NO_DATE
+    shift
+  elif [[ $1 == "-n" ]]; then
+    RISK_NAME=$2
+    shift
+  fi
+  shift
+done
+
+if [[ -z $RISK_NAME ]] && [[ -n $NO_DATE ]]; then
+  RISK_NAME="default"
+fi
+
+START_DATE_SEC=$(date --date="$START_DATE" +%s)
+END_DATE_SEC=$(date --date="$END_DATE" +%s)
+
+_MATCH_START_DATE=$(cat $MATCH_DB_DIR/../start_date)
+_MATCH_START_DATE_SEC=$(date --date="$_MATCH_START_DATE" +%s)
+if [[ $_MATCH_START_DATE_SEC -gt $START_DATE_SEC ]]; then
+  START_DATE=$(cat $MATCH_DB_DIR/../start_date)
+fi
+
+_MATCH_END_DATE=$(cat $MATCH_DB_DIR/../end_date)
+_MATCH_END_DATE_SEC=$(date --date="$_MATCH_END_DATE" +%s)
+if [[ $_MATCH_END_DATE_SEC -lt $END_DATE_SEC ]]; then
+  END_DATE=$(cat $MATCH_DB_DIR/../end_date)
+fi
+
+echo "info: start_date: $START_DATE"
+echo "info: end_date: $END_DATE"
+
+
+RISK_OUT_DIR=$RISK_DIR/"$START_DATE:$END_DATE"
+if [[ -n $RISK_NAME ]]; then
+  RISK_OUT_DIR=$RISK_DIR/$RISK_NAME
+fi
+rm -rf $RISK_OUT_DIR
+mkdir -p $RISK_OUT_DIR
+echo $START_DATE > $RISK_OUT_DIR/start_date
+echo $END_DATE > $RISK_OUT_DIR/end_date
+
+command python $SCRIPT_DIR/util/estim-risk $REPO_PATH $MATCH_DB_DIR \
+  $DATA_DIR/rc/linux-rc-info.json $RISK_OUT_DIR \
+  --after=$START_DATE --before=$END_DATE
+
+if [[ "$?" == 0 ]]; then
+  echo "info: risk data written in '$RISK_OUT_DIR'."
+else
+  echo "error: something went wrong."
+fi

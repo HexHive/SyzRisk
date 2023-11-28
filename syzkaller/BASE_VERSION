@@ -1,0 +1,2 @@
+Based on Syzkaller 2b253ced7f2f29cbe3de4782c1da91ff9d8a8a8c (Sep 21, 2022).
+Applied a "bluetooth hci" patch from 6feb842be06bf94e4751c499cd8b4659974c6f03 (Nov 7, 2022).

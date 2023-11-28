@@ -1,0 +1,34 @@
+#!/bin/bash
+
+### Front-end matching script.
+### command: kfc-repo <repo_path>
+
+THIS_DIR=$(dirname "${BASH_SOURCE[0]}" | xargs realpath)
+DATA_DIR=$THIS_DIR/../../data
+SCRIPT_DIR=$THIS_DIR/..
+
+_REPO_PATH=$1
+if [[ -n $_REPO_PATH ]]; then
+  if [[ ! -d $_REPO_PATH ]] || [[ ! -d $_REPO_PATH/.git ]]; then
+    echo "error: not a valid repo path."
+    exit
+  fi
+
+  if [[ -f "$DATA_DIR/repo_path" ]]; then
+    printf "info: 'repo_path' already set. Continue to overwrite."
+    read
+  fi
+
+  echo $(realpath $_REPO_PATH) > $DATA_DIR/repo_path
+  echo "info: set a new repo path: $(realpath $_REPO_PATH)"
+
+  printf "info: continue to re-collect RC info..."
+  read
+else
+  echo "info: re-collecting RC info..."
+fi
+
+REPO_PATH=$(cat "$DATA_DIR/repo_path")
+
+command python $SCRIPT_DIR/util/live-rc $REPO_PATH --init \
+  --out $DATA_DIR/rc/linux-rc-info.json

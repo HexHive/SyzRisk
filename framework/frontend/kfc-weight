@@ -1,0 +1,68 @@
+#!/bin/bash
+
+### Front-end matching script.
+### command: kfc-weight <repo_path> -m <mode> -r <name> -e <date>
+
+THIS_DIR=$(dirname "${BASH_SOURCE[0]}" | xargs realpath)
+SCRIPT_DIR=$THIS_DIR/..
+DATA_DIR=$THIS_DIR/../../data
+MATCH_DB_DIR=$DATA_DIR/match/db
+RISK_DIR=$DATA_DIR/risk
+
+
+print_help_and_exit() {
+  echo "usage: $0 [<repo_path>] [-m <mode>] [-r <name>] [-e <date>] [-t <tt>]"
+  echo "usage: <repo_path> is mandatory if it's not been set."
+  echo "usage: use 'kfc-repo' to set the repo path."
+  echo "usage:    <mode> = [pattern|deepjit|churn] (default: pattern)"
+  echo "usage:    <name> = pattern risk profile. (default: 'default')"
+  echo "usage:    <date> = end date. (default: risk's end date)"
+  echo "usage:    <tt> = time transformation. (default: mode default)"
+  exit
+}
+
+if [[ "$1" == "-h" ]]; then
+  print_help_and_exit
+fi
+
+REPO_PATH=$1
+if [[ -z $REPO_PATH ]] || [[ $REPO_PATH =~ ^-.*$ ]]; then
+  REPO_PATH=$(cat $DATA_DIR/repo_path)
+  if [[ -z $REPO_PATH ]]; then
+    print_help_and_exit
+  fi
+fi
+
+
+ALL_WEIGHT_MODES="pattern deepjit churn"
+
+WEIGHT_MODE="pattern"
+USING_RISK_PATH=$RISK_DIR/default
+
+for i in "$@"; do
+  if [[ $1 == "-m" ]]; then
+    WEIGHT_MODE=$2
+    if [[ -z $(echo $ALL_WEIGHT_MODES | grep $WEIGHT_MODE) ]]; then
+      echo "error: invalid weight mode."
+      exit
+    fi
+    shift
+  elif [[ $1 == "-r" ]]; then
+    USING_RISK_PATH=$RISK_DIR/$2
+    if [[ ! -d $USING_RISK_PATH ]]; then
+      echo "error: invalid risk profile."
+      exit
+    fi
+    shift
+  elif [[ $1 == "-e" ]]; then
+    END_DATE=$2
+    shift
+  elif [[ $1 == "-t" ]]; then
+    TIME_TRANS="-t $2"
+    shift
+  fi
+  shift
+done
+
+command python $SCRIPT_DIR/util/print-weights $REPO_PATH $WEIGHT_MODE \
+  $MATCH_DB_DIR $USING_RISK_PATH "$END_DATE" $TIME_TRANS

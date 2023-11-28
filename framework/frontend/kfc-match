@@ -1,0 +1,124 @@
+#!/bin/bash
+
+### Front-end matching script.
+### command: kfc-match <repo_path> -d <yyyy-mm-dd>:<yyyy-mm-dd>
+
+THIS_DIR=$(dirname "${BASH_SOURCE[0]}" | xargs realpath)
+SCRIPT_DIR=$THIS_DIR/..
+DATA_DIR=$THIS_DIR/../../data
+FUNCS_DB_DIR=$DATA_DIR/funcs/db
+MATCH_DB_DIR=$DATA_DIR/match/db
+
+mkdir -p $FUNCS_DB_DIR
+mkdir -p $MATCH_DB_DIR
+
+
+REPO_PATH=$1
+START_DATE="1990-01-01"
+END_DATE="2038-01-01"
+
+if [[ -z $REPO_PATH ]] || [[ $REPO_PATH =~ ^-.*$ ]]; then
+  REPO_PATH=$(cat $DATA_DIR/repo_path)
+  if [[ -z $REPO_PATH ]]; then
+    echo "usage: $0 [<repo_path>] [-d <yyyy-mm-dd>:<yyyy-mm-dd>]"
+    echo "usage: <repo_path> is mandatory if it's not been set."
+    echo "usage: use 'kfc-repo' to set the repo path."
+    exit
+  fi
+fi
+
+for i in "$@"; do
+  if [[ $1 == "-d" ]]; then
+    DATES=$2
+    START_DATE=${DATES%:*}
+    END_DATE=${DATES#*:}
+    shift
+  fi
+  shift
+done
+
+START_DATE_SEC=$(date --date="$START_DATE" +%s)
+END_DATE_SEC=$(date --date="$END_DATE" +%s)
+
+# Match diff-level patterns, and extract functions.
+
+echo "info: matching diff-level patterns... (+extfunc)"
+
+if [[ -n $START_DATE ]]; then
+  _AFTER_DATE="--after=$START_DATE"
+fi
+if [[ -n $END_DATE ]]; then
+  _BEFORE_DATE="--before=$END_DATE"
+fi
+
+command python $SCRIPT_DIR/pipeline/analdiff $REPO_PATH -m="all" -e \
+  $_AFTER_DATE $_BEFORE_DATE -o .analdiff_output
+
+# Add extracted functions to 'extfunc/db'
+
+echo "info: adding extracted functions to db..."
+
+rsync -a .analdiff_output/extfunc/ $FUNCS_DB_DIR/
+
+if [[ -f $FUNCS_DB_DIR/../start_date ]]; then
+  _FUNCS_START_DATE=$(cat $FUNCS_DB_DIR/../start_date)
+  _FUNCS_START_DATE_SEC=$(date --date="$_FUNCS_START_DATE" +%s)
+else
+  _NO_FUNCS_START_DATE=1
+fi
+if [[ -n $_NO_FUNCS_START_DATE ]] || [[ $_FUNCS_START_DATE_SEC -lt $START_DATE_SEC ]]; then
+  echo $START_DATE > $FUNCS_DB_DIR/../start_date
+fi
+
+if [[ -f $FUNCS_DB_DIR/../end_date ]]; then
+  _FUNCS_END_DATE=$(cat $FUNCS_DB_DIR/../end_date)
+  _FUNCS_END_DATE_SEC=$(date --date="$_FUNCS_END_DATE" +%s)
+else
+  _NO_FUNCS_END_DATE=1
+fi
+if [[ -n $_NO_FUNCS_END_DATE ]] || [[ $_FUNCS_END_DATE_SEC -gt $END_DATE_SEC ]]; then
+  echo $END_DATE > $FUNCS_DB_DIR/../end_date
+fi
+
+# Match function-level patterns.
+
+echo "info: matching funcion-level patterns..."
+
+command python $SCRIPT_DIR/pipeline/analfunc .analdiff_output/extfunc \
+  -o .analfunc_output
+
+# Merge matching results.
+
+echo "info: adding match results to db..."
+
+rsync -a .analdiff_output/matcher/ $MATCH_DB_DIR/
+rsync -a .analfunc_output/ $MATCH_DB_DIR/
+
+if [[ -f $MATCH_DB_DIR/../start_date ]]; then
+  _MATCH_START_DATE=$(cat $MATCH_DB_DIR/../start_date)
+  _MATCH_START_DATE_SEC=$(date --date="$_MATCH_START_DATE" +%s)
+else
+  _NO_MATCH_START_DATE=1
+fi
+if [[ -n $_NO_MATCH_START_DATE ]] || [[ $_MATCH_START_DATE_SEC -lt $START_DATE_SEC ]]; then
+  echo $START_DATE > $MATCH_DB_DIR/../start_date
+fi
+
+if [[ -f $MATCH_DB_DIR/../end_date ]]; then
+  _MATCH_END_DATE=$(cat $MATCH_DB_DIR/../end_date)
+  _MATCH_END_DATE_SEC=$(date --date="$_MATCH_END_DATE" +%s)
+else
+  _NO_MATCH_END_DATE=1
+fi
+if [[ -n $_NO_MATCH_START_DATE ]] ||[[ $_MATCH_END_DATE_SEC -gt $END_DATE_SEC ]]; then
+  echo $END_DATE > $MATCH_DB_DIR/../end_date
+fi
+
+# Cleanup.
+
+echo "info: cleaning up..."
+
+rm -rf .analdiff_output
+rm -rf .analfunc_output
+
+echo "info: done."

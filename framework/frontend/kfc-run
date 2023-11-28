@@ -1,0 +1,8 @@
+#!/bin/bash
+
+### Low-level launcher, in case you want to directly call a specific script.
+
+SCRIPT_DIR=$(dirname "${BASH_SOURCE[0]}" | xargs realpath)/..
+SCRIPT_NAME=$1
+shift
+command python $SCRIPT_DIR/$SCRIPT_NAME "$@"

@@ -1,0 +1,1152 @@
+executing /home/gwangmu/Projects/Regression/framework/scripts/pipeline/analfunc/entry.sc with params=Map(outdir -> /home/gwangmu/Projects/Regression/framework/.analfunc_output, matcher -> all)
+creating workspace directory: /home/gwangmu/Projects/Regression/framework/.analfunc/thread2/workspace
+Using generator for language: NEWC: CCpgGenerator
+Creating project `new.c` for code at `./new.c`
+moving cpg.bin.zip to cpg.bin because it is already a database file
+Creating working copy of CPG to be safe
+Loading base CPG from: /home/gwangmu/Projects/Regression/framework/.analfunc/thread2/workspace/new.c/cpg.bin.tmp
+Adding default overlays to base CPG
+The graph has been modified. You may want to use the `save` command to persist changes to disk.  All changes will also be saved collectively on exit
+Code successfully imported. You can now query it using `cpg`.
+For an overview of all imported code, type `workspace`.
+new_0.c
+new_1.c
+new_2.c
+new_3.c
+new_4.c
+new_5.c
+new_6.c
+new_7.c
+new_8.c
+new_9.c
+new_10.c
+new_11.c
+new_12.c
+new_13.c
+new_14.c
+new_15.c
+new_16.c
+new_17.c
+new_18.c
+new_19.c
+new_20.c
+new_21.c
+new_22.c
+new_23.c
+new_24.c
+new_25.c
+new_26.c
+new_27.c
+new_28.c
+new_29.c
+new_30.c
+new_31.c
+new_32.c
+new_33.c
+new_34.c
+new_35.c
+new_36.c
+new_37.c
+new_38.c
+new_39.c
+new_40.c
+new_41.c
+new_42.c
+new_43.c
+new_44.c
+new_45.c
+new_46.c
+new_47.c
+new_48.c
+new_49.c
+new_50.c
+new_51.c
+new_52.c
+new_53.c
+new_54.c
+new_55.c
+new_56.c
+new_57.c
+new_58.c
+new_59.c
+new_60.c
+new_61.c
+new_62.c
+new_63.c
+new_64.c
+new_65.c
+new_66.c
+new_67.c
+new_68.c
+new_69.c
+new_70.c
+new_71.c
+new_72.c
+new_73.c
+new_74.c
+new_75.c
+new_76.c
+new_77.c
+new_78.c
+new_79.c
+new_80.c
+new_81.c
+new_82.c
+new_83.c
+new_84.c
+new_85.c
+new_86.c
+new_87.c
+new_88.c
+new_89.c
+new_90.c
+new_91.c
+new_92.c
+new_93.c
+new_94.c
+new_95.c
+new_96.c
+new_97.c
+new_98.c
+new_99.c
+new_100.c
+new_101.c
+new_102.c
+new_103.c
+new_104.c
+new_105.c
+new_106.c
+new_107.c
+new_108.c
+new_109.c
+new_110.c
+new_111.c
+new_112.c
+new_113.c
+new_114.c
+new_115.c
+new_116.c
+new_117.c
+new_118.c
+new_119.c
+new_120.c
+new_121.c
+new_122.c
+new_123.c
+new_124.c
+new_125.c
+new_126.c
+new_127.c
+new_128.c
+new_129.c
+new_130.c
+new_131.c
+new_132.c
+new_133.c
+new_134.c
+new_135.c
+new_136.c
+new_137.c
+new_138.c
+new_139.c
+new_140.c
+new_141.c
+new_142.c
+new_143.c
+new_144.c
+new_145.c
+new_146.c
+new_147.c
+new_148.c
+new_149.c
+new_150.c
+new_151.c
+new_152.c
+new_153.c
+new_154.c
+new_155.c
+The graph has been modified. You may want to use the `save` command to persist changes to disk.  All changes will also be saved collectively on exit
+The graph has been modified. You may want to use the `save` command to persist changes to disk.  All changes will also be saved collectively on exit
+2023-01-27 19:44:29.280 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:29.284 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:29.285 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:30.041 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:30.052 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:30.070 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:30.071 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:30.085 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:30.095 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:30.595 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:30.596 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:30.598 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:30.599 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:30.600 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=verify_profile, file=new_3.c)
+ - hexsha=e844fe9b51c9
+2023-01-27 19:44:30.922 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:30.931 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:31.550 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:31.578 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:31.607 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:31.609 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=label_components_match, file=new_5.c)
+ - hexsha=e844fe9b51c9
+2023-01-27 19:44:31.779 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:31.807 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:31.849 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:31.905 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:31.951 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:31.961 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=aa_lookup_perms, file=new_6.c)
+ - hexsha=e844fe9b51c9
+2023-01-27 19:44:31.965 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:32.303 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:32.315 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:32.442 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:32.449 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:32.491 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:32.503 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:32.507 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:32.523 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:32.591 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:32.592 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:32.594 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:32.596 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:32.614 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:32.617 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=unpack_profile, file=new_9.c)
+ - hexsha=e844fe9b51c9
+info: function taken. (name=unpack_profile, file=new_9.c)
+ - hexsha=e844fe9b51c9
+2023-01-27 19:44:36.083 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.086 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.088 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.098 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.112 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.116 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.118 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.127 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.128 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.130 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.132 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.133 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.134 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.135 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.136 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=__io_scm_file_account, file=new_11.c)
+ - hexsha=0091bfc81741
+2023-01-27 19:44:36.155 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.172 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.185 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.186 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.202 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.209 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.214 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.224 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.229 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.230 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.231 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.232 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.236 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.237 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.238 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.272 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.303 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.322 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.322 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.323 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.324 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.349 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.351 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.354 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.361 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.362 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=unix_gc, file=new_12.c)
+ - hexsha=0091bfc81741
+info: function taken. (name=unix_gc, file=new_12.c)
+ - hexsha=0091bfc81741
+2023-01-27 19:44:36.387 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.408 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.420 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.435 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.436 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.484 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.485 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=rk_crypto_get_clks, file=new_13.c)
+ - hexsha=e220e6719438
+2023-01-27 19:44:36.737 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.766 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.768 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.804 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.808 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.852 WARN Engine: Attempting to determine flows to empty list of sinks.
+2023-01-27 19:44:36.853 WARN Engine: Attempting to determine flows to empty list of sinks.
+2023-01-27 19:44:36.857 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.870 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.871 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.877 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.880 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.911 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.920 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.930 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.933 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.947 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.971 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.974 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.975 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.977 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.978 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.983 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.985 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.986 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:36.993 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=rk_crypto_probe, file=new_14.c)
+ - hexsha=e220e6719438
+info: function taken. (name=rk_crypto_probe, file=new_14.c)
+ - hexsha=e220e6719438
+info: function taken. (name=rk_crypto_probe, file=new_14.c)
+ - hexsha=e220e6719438
+2023-01-27 19:44:37.079 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.095 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.096 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.100 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.116 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.129 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.131 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.134 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.138 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.141 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.191 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.212 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.213 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.215 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.219 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.231 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.261 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.273 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.280 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=qmp_pcie_power_on, file=new_15.c)
+ - hexsha=5806b87dea8f
+2023-01-27 19:44:37.430 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.431 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.432 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=hisi_sas_abort_task, file=new_17.c)
+ - hexsha=4b329abc9180
+info: function taken. (name=sm3_neon_fini, file=new_18.c)
+ - hexsha=a41b2129461f
+info: function taken. (name=sm3_neon_fini, file=new_18.c)
+ - hexsha=a41b2129461f
+2023-01-27 19:44:37.629 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.630 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.630 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.631 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=sm3_neon_update, file=new_19.c)
+ - hexsha=a41b2129461f
+2023-01-27 19:44:37.633 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.634 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.635 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.636 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.636 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.637 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.637 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.638 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.638 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.641 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.641 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.642 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.642 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.643 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=sm3_neon_finup, file=new_20.c)
+ - hexsha=a41b2129461f
+2023-01-27 19:44:37.648 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.651 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.652 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.653 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.653 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.655 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.657 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.657 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.659 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:37.659 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=sm3_neon_final, file=new_21.c)
+ - hexsha=a41b2129461f
+info: function taken. (name=sm3_neon_init, file=new_22.c)
+ - hexsha=a41b2129461f
+info: function taken. (name=sm3_neon_init, file=new_22.c)
+ - hexsha=a41b2129461f
+2023-01-27 19:44:38.348 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=vop2_enable, file=new_24.c)
+ - hexsha=e3558747ebe1
+2023-01-27 19:44:38.397 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:38.402 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:38.412 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:38.414 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:38.435 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:38.447 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:38.467 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:38.498 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=dw_mipi_dsi_dphy_power_on, file=new_25.c)
+ - hexsha=e3558747ebe1
+2023-01-27 19:44:38.505 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:38.519 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:38.526 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:38.531 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:38.538 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:38.552 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:38.559 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=vop_initial, file=new_26.c)
+ - hexsha=e3558747ebe1
+info: function taken. (name=vop_initial, file=new_26.c)
+ - hexsha=e3558747ebe1
+info: function taken. (name=vop_enable, file=new_27.c)
+ - hexsha=e3558747ebe1
+2023-01-27 19:44:38.987 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:38.988 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:38.989 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:38.991 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:38.992 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=reclaim_pages, file=new_28.c)
+ - hexsha=49fd9b6df54e
+2023-01-27 19:44:39.024 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.025 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.032 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.047 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.048 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.050 WARN Engine: Attempting to determine flows to empty list of sinks.
+2023-01-27 19:44:39.050 WARN Engine: Attempting to determine flows to empty list of sinks.
+2023-01-27 19:44:39.161 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.180 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.198 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.238 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.239 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.244 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.259 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.295 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.311 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.312 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.314 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.324 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.326 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.345 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.346 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.347 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=reclaim_clean_pages_from_list, file=new_33.c)
+ - hexsha=49fd9b6df54e
+2023-01-27 19:44:39.351 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.375 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.377 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.396 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.402 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.545 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.571 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.597 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.606 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.606 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.607 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.608 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.609 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.610 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.627 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.629 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.643 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.655 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=reclaim_folio_list, file=new_36.c)
+ - hexsha=49fd9b6df54e
+2023-01-27 19:44:39.664 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.669 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.683 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.706 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.707 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.707 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.708 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:39.708 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=shrink_folio_list, file=new_37.c)
+ - hexsha=49fd9b6df54e
+info: function taken. (name=shrink_folio_list, file=new_37.c)
+ - hexsha=49fd9b6df54e
+info: function taken. (name=shrink_folio_list, file=new_37.c)
+ - hexsha=49fd9b6df54e
+info: function taken. (name=shrink_folio_list, file=new_37.c)
+ - hexsha=49fd9b6df54e
+info: function taken. (name=shrink_folio_list, file=new_37.c)
+ - hexsha=49fd9b6df54e
+info: function taken. (name=shrink_folio_list, file=new_37.c)
+ - hexsha=49fd9b6df54e
+2023-01-27 19:44:41.513 WARN Engine: Attempting to determine flows to empty list of sinks.
+info: function taken. (name=evict_folios, file=new_38.c)
+ - hexsha=49fd9b6df54e
+info: function taken. (name=evict_folios, file=new_38.c)
+ - hexsha=49fd9b6df54e
+info: function taken. (name=evict_folios, file=new_38.c)
+ - hexsha=49fd9b6df54e
+info: function taken. (name=demote_folio_list, file=new_39.c)
+ - hexsha=49fd9b6df54e
+info: function taken. (name=shrink_inactive_list, file=new_40.c)
+ - hexsha=49fd9b6df54e
+info: function taken. (name=shrink_inactive_list, file=new_40.c)
+ - hexsha=49fd9b6df54e
+info: function taken. (name=shrink_inactive_list, file=new_40.c)
+ - hexsha=49fd9b6df54e
+2023-01-27 19:44:41.964 WARN Engine: Attempting to determine flows to empty list of sinks.
+2023-01-27 19:44:41.967 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:41.968 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:41.984 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.010 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.017 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.031 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=shrink_active_list, file=new_42.c)
+ - hexsha=49fd9b6df54e
+info: function taken. (name=shrink_active_list, file=new_42.c)
+ - hexsha=49fd9b6df54e
+2023-01-27 19:44:42.458 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.473 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.474 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.486 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.494 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.495 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.496 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.496 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.497 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.515 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.518 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.531 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.543 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.545 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.550 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.566 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.567 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.569 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.569 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.570 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.572 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.573 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.579 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.595 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.611 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.613 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.614 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.615 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=pci_enable_pasid, file=new_47.c)
+ - hexsha=201007ef707a
+2023-01-27 19:44:42.832 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.833 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.851 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.867 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.887 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.898 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.903 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.903 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=damon_test_set_regions, file=new_48.c)
+ - hexsha=62f409560eb2
+2023-01-27 19:44:42.983 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.984 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.987 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.988 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.989 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.997 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.998 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.998 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:42.999 WARN Engine: Attempting to determine flows to empty list of sinks.
+2023-01-27 19:44:43.000 WARN Engine: Attempting to determine flows to empty list of sinks.
+2023-01-27 19:44:43.001 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.022 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.027 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.029 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.031 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.032 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.033 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.034 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.035 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.035 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.035 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.036 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.036 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.036 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=ath9k_hif_usb_reg_in_cb, file=new_49.c)
+ - hexsha=dd95f2239fc8
+info: function taken. (name=ath9k_hif_usb_reg_in_cb, file=new_49.c)
+ - hexsha=dd95f2239fc8
+info: function taken. (name=ath9k_hif_usb_reg_in_cb, file=new_49.c)
+ - hexsha=dd95f2239fc8
+info: function taken. (name=ath9k_hif_usb_reg_in_cb, file=new_49.c)
+ - hexsha=dd95f2239fc8
+info: function taken. (name=ath9k_hif_usb_reg_in_cb, file=new_49.c)
+ - hexsha=dd95f2239fc8
+2023-01-27 19:44:43.043 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.075 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.094 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.095 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.114 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.114 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.129 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.132 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.143 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.151 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.160 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.161 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.169 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.172 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.172 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.173 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.178 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.186 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.201 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.206 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.212 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.218 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.224 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.250 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.251 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.251 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=uvc_buffer_prepare, file=new_52.c)
+ - hexsha=88c8e05ed5c0
+2023-01-27 19:44:43.323 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.324 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.327 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.327 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.328 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.329 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.330 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.337 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.338 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.346 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.347 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.348 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.348 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.351 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=intel_device_info_runtime_init, file=new_55.c)
+ - hexsha=f38f614fa995
+2023-01-27 19:44:43.745 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.746 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.748 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.755 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.756 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.756 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.758 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.760 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.761 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.761 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.810 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.812 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.815 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.815 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.816 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.829 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.830 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=evsel__detect_missing_features, file=new_57.c)
+ - hexsha=f7400262ea21
+2023-01-27 19:44:43.896 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.929 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.931 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.932 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.934 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.943 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.945 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.968 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.978 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.984 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.986 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.991 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:43.993 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.001 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.002 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.005 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.015 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.021 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.027 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.029 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.036 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.049 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.051 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.055 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.063 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.065 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.066 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.075 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.077 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.078 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.086 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.111 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.113 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.119 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.120 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=evsel__clone, file=new_58.c)
+ - hexsha=f7400262ea21
+2023-01-27 19:44:44.135 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.146 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.175 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.188 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.208 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.217 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.218 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.220 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.227 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.229 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.230 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.243 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.265 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.269 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.292 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.297 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.299 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.301 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.315 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.323 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.326 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.338 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.350 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.356 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.363 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.371 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.383 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.396 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.397 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.398 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.417 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.419 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.431 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.443 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.467 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.504 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.505 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.532 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.563 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.569 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.571 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.593 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=__add_event, file=new_59.c)
+ - hexsha=f7400262ea21
+2023-01-27 19:44:44.604 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.607 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.635 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.636 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.644 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.653 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.654 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.655 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.660 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.663 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.664 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.667 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.668 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.668 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.669 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.669 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.670 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.678 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=rtw89_debug_priv_mac_mem_dump_get, file=new_60.c)
+ - hexsha=732dd91db3d3
+info: function taken. (name=rtw89_debug_priv_mac_mem_dump_get, file=new_60.c)
+ - hexsha=732dd91db3d3
+info: function taken. (name=rtw89_debug_priv_mac_mem_dump_get, file=new_60.c)
+ - hexsha=732dd91db3d3
+info: function taken. (name=rtw89_debug_priv_mac_mem_dump_get, file=new_60.c)
+ - hexsha=732dd91db3d3
+2023-01-27 19:44:44.703 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.709 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.745 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.746 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.750 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.751 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.798 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.816 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.817 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.818 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.826 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.832 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.833 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.843 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.844 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.848 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.849 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.871 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.872 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.873 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.875 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.875 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.875 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=__thermal_cooling_device_register, file=new_61.c)
+ - hexsha=e49a1e1ee078
+2023-01-27 19:44:44.906 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.907 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.930 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.939 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.940 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.941 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.967 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.968 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.970 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.975 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.976 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.977 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.978 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:44.984 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:45.010 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:45.023 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:45.040 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:45.047 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:45.048 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:45.049 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:45.049 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=ipa_table_setup, file=new_62.c)
+ - hexsha=5cb76899fb47
+2023-01-27 19:44:45.053 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=ipa_table_init_add, file=new_63.c)
+ - hexsha=5cb76899fb47
+info: function taken. (name=ipa_table_init_add, file=new_63.c)
+ - hexsha=5cb76899fb47
+info: function taken. (name=ipa_table_init_add, file=new_63.c)
+ - hexsha=5cb76899fb47
+info: function taken. (name=ipa_table_init_add, file=new_63.c)
+ - hexsha=5cb76899fb47
+info: function taken. (name=ofdpa_port_fdb_learn_work, file=new_65.c)
+ - hexsha=42e51de97cb4
+info: function taken. (name=ofdpa_port_fdb_learn_work, file=new_65.c)
+ - hexsha=42e51de97cb4
+info: function taken. (name=ofdpa_port_fdb_learn_work, file=new_65.c)
+ - hexsha=42e51de97cb4
+info: function taken. (name=format_mca_init_stack, file=new_66.c)
+ - hexsha=95e9a8552e85
+info: function taken. (name=format_mca_init_stack, file=new_66.c)
+ - hexsha=95e9a8552e85
+2023-01-27 19:44:45.876 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:45.878 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=rtw89_subband_to_bb_gain_band, file=new_69.c)
+ - hexsha=6e5125bcbaf8
+info: function taken. (name=rtw89_subband_to_bb_gain_band, file=new_71.c)
+ - hexsha=6e5125bcbaf8
+info: function taken. (name=rtw89_subband_to_gain_offset_band_of_ofdm, file=new_72.c)
+ - hexsha=6e5125bcbaf8
+2023-01-27 19:44:46.157 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.159 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.161 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.161 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.162 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.163 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.175 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.177 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.179 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.182 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.208 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.267 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.278 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.292 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.304 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.323 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.335 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.340 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.363 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.404 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.437 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.449 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.474 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.503 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.506 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.545 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.580 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.622 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.627 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.629 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.630 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.632 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.664 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.675 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.678 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.689 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.692 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.727 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.729 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.744 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.758 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.780 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.795 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.796 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.821 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.833 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.837 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.839 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.840 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.847 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.849 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.851 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=rtw89_subband_to_gain_offset_band_of_ofdm, file=new_74.c)
+ - hexsha=6e5125bcbaf8
+2023-01-27 19:44:46.859 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.866 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.871 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.872 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=__lcs_start_xmit, file=new_76.c)
+ - hexsha=bb16db839365
+2023-01-27 19:44:46.925 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.928 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.929 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.930 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.931 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.933 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.935 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.936 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.937 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.938 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.940 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.941 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=ghes_probe, file=new_78.c)
+ - hexsha=9057a3f7ac36
+info: function taken. (name=ghes_probe, file=new_78.c)
+ - hexsha=9057a3f7ac36
+info: function taken. (name=ghes_probe, file=new_78.c)
+ - hexsha=9057a3f7ac36
+info: function taken. (name=ghes_probe, file=new_78.c)
+ - hexsha=9057a3f7ac36
+2023-01-27 19:44:46.961 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.962 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.964 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.967 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.971 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.972 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.973 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.974 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.975 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.976 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.978 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.979 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.985 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.991 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=ghes_get_devices, file=new_79.c)
+ - hexsha=9057a3f7ac36
+2023-01-27 19:44:46.994 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:46.995 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.011 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.012 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.013 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.013 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=ghes_remove, file=new_80.c)
+ - hexsha=9057a3f7ac36
+info: function taken. (name=ghes_remove, file=new_80.c)
+ - hexsha=9057a3f7ac36
+info: function taken. (name=ghes_remove, file=new_80.c)
+ - hexsha=9057a3f7ac36
+2023-01-27 19:44:47.019 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.019 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.032 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=ghes_remove, file=new_80.c)
+ - hexsha=9057a3f7ac36
+2023-01-27 19:44:47.042 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.042 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.043 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.044 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.045 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.046 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.047 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.048 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.049 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.050 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.051 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.051 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.054 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.055 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.056 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.057 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.058 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.059 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.060 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.061 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.062 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.063 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.064 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.066 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.067 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.069 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.071 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.072 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.073 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.074 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.075 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.076 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.077 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.078 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.079 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.079 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.083 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=ghes_edac_register, file=new_81.c)
+ - hexsha=9057a3f7ac36
+info: function taken. (name=ghes_edac_register, file=new_81.c)
+ - hexsha=9057a3f7ac36
+2023-01-27 19:44:47.099 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.100 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.101 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.102 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.104 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.105 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.106 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.108 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.109 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.110 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.111 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.112 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.113 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.113 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.114 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.115 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.122 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.127 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.128 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.131 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.131 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.134 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.134 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.135 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.136 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.138 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.139 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.140 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.143 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.144 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.147 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.148 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.150 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.151 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.151 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.152 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.153 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=mem_cgroup_swap_full, file=new_82.c)
+ - hexsha=b25806dcd3d5
+2023-01-27 19:44:47.180 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.181 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.182 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.185 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.186 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=__mem_cgroup_try_charge_swap, file=new_84.c)
+ - hexsha=b25806dcd3d5
+info: function taken. (name=do_memsw_account, file=new_85.c)
+ - hexsha=b25806dcd3d5
+info: function taken. (name=setup_swap_account, file=new_87.c)
+ - hexsha=b25806dcd3d5
+2023-01-27 19:44:47.304 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.305 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.307 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.307 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.309 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.310 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.312 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.320 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.321 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.323 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.325 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.325 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=dwc3_stop_active_transfer, file=new_90.c)
+ - hexsha=4db0fbb60136
+2023-01-27 19:44:47.334 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.338 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.340 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.341 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.342 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.343 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.344 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.345 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.345 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.346 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.349 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.349 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.350 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.352 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.353 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.354 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.355 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.355 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.356 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.359 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.361 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.363 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.366 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.376 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.381 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.382 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.383 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.383 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.384 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.385 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.407 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.412 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.413 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.414 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.417 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.422 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.423 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.424 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.425 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.429 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.431 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.432 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.433 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.434 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.434 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.435 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.436 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.438 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.447 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.448 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.449 WARN Engine: Attempting to determine flows from empty list of sources.
+2023-01-27 19:44:47.450 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=vp_vdpa_dev_add, file=new_93.c)
+ - hexsha=c1ca352d371f
+info: function taken. (name=vp_vdpa_dev_add, file=new_93.c)
+ - hexsha=c1ca352d371f
+2023-01-27 19:44:47.655 WARN Engine: Attempting to determine flows from empty list of sources.
+info: function taken. (name=__create_missing_ancestors, file=new_95.c)
+Exception in thread "main" java.lang.AssertionError: script errored: 
+	at io.joern.console.BridgeBase.runScript(BridgeBase.scala:332)
+	at io.joern.console.BridgeBase.runAmmonite(BridgeBase.scala:162)
+	at io.joern.console.BridgeBase.runAmmonite$(BridgeBase.scala:144)
+	at io.joern.console.AmmoniteBridge$.runAmmonite(AmmoniteBridge.scala:3)
+	at io.joern.console.AmmoniteBridge$.delayedEndpoint$io$joern$console$AmmoniteBridge$1(AmmoniteBridge.scala:5)
+	at io.joern.console.AmmoniteBridge$delayedInit$body.apply(AmmoniteBridge.scala:3)
+	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+	at scala.App.$anonfun$main$1(App.scala:76)
+	at scala.App.$anonfun$main$1$adapted(App.scala:76)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)
+	at scala.App.main(App.scala:76)
+	at scala.App.main$(App.scala:74)
+	at io.joern.console.AmmoniteBridge$.main(AmmoniteBridge.scala:3)
+	at io.joern.console.AmmoniteBridge.main(AmmoniteBridge.scala)
+Caused by: java.lang.IndexOutOfBoundsException: 0
+	at scala.collection.LinearSeqOps.apply(LinearSeq.scala:117)
+	at scala.collection.LinearSeqOps.apply$(LinearSeq.scala:114)
+	at scala.collection.immutable.List.apply(List.scala:79)
+	at ammonite.$file.$up.$up.scripts.pipeline.analfunc.entry$.$anonfun$Analyze$8(entry.sc:66)
+	at ammonite.$file.$up.$up.scripts.pipeline.analfunc.entry$.$anonfun$Analyze$8$adapted(entry.sc:59)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1328)
+	at ammonite.$file.$up.$up.scripts.pipeline.analfunc.entry$.$anonfun$Analyze$7(entry.sc:59)
+	at ammonite.$file.$up.$up.scripts.pipeline.analfunc.entry$.$anonfun$Analyze$7$adapted(entry.sc:58)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at ammonite.$file.$up.$up.scripts.pipeline.analfunc.entry$.Analyze(entry.sc:58)
+	at ammonite.$file.$up.$up.scripts.pipeline.analfunc.entry$.main(entry.sc:95)
+	at ammonite.$file.$up.$up.scripts.pipeline.analfunc.entry$$routes$.$anonfun$apply$1(entry.sc:106)
+	at ammonite.$file.$up.$up.scripts.pipeline.analfunc.entry$$routes$.$anonfun$apply$1$adapted(entry.sc:106)
+	at mainargs.Invoker$.$anonfun$invoke0$3(Invoker.scala:59)
+	at mainargs.Result.flatMap(Result.scala:13)
+	at mainargs.Result.flatMap$(Result.scala:12)
+	at mainargs.Result$Success.flatMap(Result.scala:23)
+	at mainargs.Invoker$.invoke0(Invoker.scala:58)
+	at mainargs.Invoker$.invoke(Invoker.scala:70)
+	at mainargs.Invoker$.$anonfun$runMains$1(Invoker.scala:87)
+	at mainargs.Result.flatMap(Result.scala:13)
+	at mainargs.Result.flatMap$(Result.scala:12)
+	at mainargs.Result$Success.flatMap(Result.scala:23)
+	at mainargs.Invoker$.groupArgs$1(Invoker.scala:87)
+	at mainargs.Invoker$.runMains(Invoker.scala:91)
+	at ammonite.main.Scripts$.$anonfun$runScript$5(Scripts.scala:110)
+	at ammonite.util.Util$.withContextClassloader(Util.scala:24)
+	at ammonite.main.Scripts$.$anonfun$runScript$4(Scripts.scala:86)
+	at ammonite.util.Res$Success.flatMap(Res.scala:62)
+	at ammonite.main.Scripts$.$anonfun$runScript$2(Scripts.scala:53)
+	at ammonite.util.Res$Success.flatMap(Res.scala:62)
+	at ammonite.main.Scripts$.$anonfun$runScript$1(Scripts.scala:32)
+	at ammonite.util.Res$Success.flatMap(Res.scala:62)
+	at ammonite.main.Scripts$.runScript(Scripts.scala:28)
+	at ammonite.Main.runScript(Main.scala:250)
+	at io.joern.console.BridgeBase.runScript(BridgeBase.scala:324)
+	... 17 more

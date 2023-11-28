@@ -1,0 +1,1924 @@
+{
+  "1ffc54220c444774b7f09e6d2121e732f8e19b94": [
+    "deadlock"
+  ],
+  "c318840fb2a42ce25febc95c4c19357acf1ae5ca": [
+    "buffer-overflow"
+  ],
+  "cffa4b2122f5f3e53cf3d529bbc74651f95856d5": [
+    "memory-leak"
+  ],
+  "c07e6719511e77c4b289f62bfe96423eb6ea061d": [
+    "deadlock"
+  ],
+  "37309f47e2f5674f3e86cb765312ace42cfcedf5": [
+    "memory-leak",
+    "NULL-dereference"
+  ],
+  "638331fa56caeaa8b4d31cc1dfbe0ce989bcff67": [
+    "kernel-panic"
+  ],
+  "ad73109ae7ec30d5bfb76be108e304f9f0af4829": [
+    "NULL-dereference"
+  ],
+  "82a763e61e2b601309d696d4fa514c77d64ee1be": [
+    "deadlock"
+  ],
+  "ef4459a6da0955b533ebfc97a7d756ac090f50c9": [
+    "kernel-panic"
+  ],
+  "49da38a3ef330b7a1643e12c51913d58158e5abe": [
+    "race-condition"
+  ],
+  "43ed15e1ee01631687ed8b2e8595859802bc9f10": [
+    "NULL-dereference"
+  ],
+  "e4c9062717feda88900b566463228d1c4910af6d": [
+    "buffer-overflow"
+  ],
+  "b1a5039759cb7bfcb2157f28604dbda0bca58598": [
+    "deadlock"
+  ],
+  "f104060813fe79350565b68c1098fcea050a6504": [
+    "kernel-panic"
+  ],
+  "921ca574cd382142add8b12d0a7117f495510de5": [
+    "use-after-free",
+    "race-condition"
+  ],
+  "f8aab60422c371425365d386dfd51e0c6c5b1041": [
+    "deadlock"
+  ],
+  "7cea9657756b2c83069a775c0671ff169bce456a": [
+    "NULL-dereference"
+  ],
+  "edac63861db72a462ccdfad0b5dfa66985d58bd5": [
+    "kernel-panic"
+  ],
+  "90cd7e424969d29aff653333b4dcb4e2e199d791": [
+    "use-after-free",
+    "race-condition"
+  ],
+  "a6dcfe08487e5e83b6b4214c959a9577a9ed2d9f": [
+    "NULL-dereference"
+  ],
+  "c8ea79a8a2767e7948c778237be655a109366eb9": [
+    "NULL-dereference"
+  ],
+  "7a7e66c65d4148fc3f23b058405bc9f102414fcb": [
+    "use-after-free",
+    "race-condition"
+  ],
+  "0671c0662383eefc272e107364cba7fe229dee44": [
+    "buffer-overflow"
+  ],
+  "5d9814df0aec56a638bbf20795abb4cfaf3cd331": [
+    "kernel-panic"
+  ],
+  "786998050cbc8ead32e6e9fcda2facb3bf3d198d": [
+    "use-after-free"
+  ],
+  "582f1fb6b721facf04848d2ca57f34468da1813e": [
+    "NULL-dereference"
+  ],
+  "17858b140bf49961b71d4e73f1c3ea9bc8e7dda0": [
+    "buffer-overflow"
+  ],
+  "5bfb3a4bd8f6b5329464edb9b772738708509d4a": [
+    "deadlock"
+  ],
+  "9b73bde39cf24bb516f43a4caf1780c501b86f79": [
+    "use-after-free"
+  ],
+  "3b47b7549ead0719e94022c6742199333c7c8d9f": [
+    "kernel-panic"
+  ],
+  "ab037dd87a2f946556850e204c06cbd7a2a19390": [
+    "kernel-panic"
+  ],
+  "755e5d55367af5ff75a4db9b6cf439416878e2c7": [
+    "buffer-overflow"
+  ],
+  "8d86e373b0ef52d091ced9583ffbb33ad2771576": [
+    "buffer-overflow"
+  ],
+  "a3db10efcc4cc9c03a6375920179ade75ea2df7a": [
+    "kernel-panic",
+    "buffer-overflow"
+  ],
+  "099b990bd11a3a96b5d59973f482018e5cbde6c3": [
+    "buffer-overflow"
+  ],
+  "3b8c72d076c42bf27284cda7b2b2b522810686f8": [
+    "race-condition"
+  ],
+  "5191955d6fc65e6d4efe8f4f10a6028298f57281": [
+    "NULL-dereference"
+  ],
+  "cb2ce93e5b050fb9182eb6b6ff64428333436f73": [
+    "NULL-dereference"
+  ],
+  "68c0c1c7f9668e7a7f2e18dbf951cfee57af1c0e": [
+    "race-condition"
+  ],
+  "1f652bb6bae7f211f3131ddbc380bb839680068f": [
+    "race-condition"
+  ],
+  "9281cf2d584083a450fd65fd27cc5f0e692f6e30": [
+    "NULL-dereference"
+  ],
+  "d12edf9661a408d04efc9c0a4ff9a15413195d8a": [
+    "buffer-overflow"
+  ],
+  "05c2a705917b77e0915cca3551583583f4eafcf8": [
+    "buffer-overflow"
+  ],
+  "5e6fd339b68df81f35a70b4aa0501e3eec1dd2de": [
+    "NULL-dereference"
+  ],
+  "08a27c1c3ecf5e1da193ce5f8fc97c3be16e75f0": [
+    "NULL-dereference"
+  ],
+  "9af7c32ceca85da27867dd863697d2aafc80a3f8": [
+    "kernel-panic"
+  ],
+  "71d80563b0760a411cd90a3680536f5d887fff6b": [
+    "kernel-panic"
+  ],
+  "a9e5c87ca7443d09fb530fffa4d96ce1c76dbe4d": [
+    "deadlock",
+    "race-condition"
+  ],
+  "d963ab0f15fb0797ddd65b2653f3d65c2d7a08ec": [
+    "memory-leak"
+  ],
+  "4f0b6812e9b9a05887b51c773642c6f354d69650": [
+    "kernel-panic"
+  ],
+  "8908f36d20d8ba610d3a7d110b3049b5853b9bb1": [
+    "race-condition"
+  ],
+  "0397c6d85f9c6f81f6dc3a0a166331b2475b325c": [
+    "race-condition"
+  ],
+  "9db34ee64ce492c7ede3555ed690c8253d9935e4": [
+    "NULL-dereference"
+  ],
+  "059a0beb486344a577ff476acce75e69eab704be": [
+    "buffer-overflow"
+  ],
+  "2ca13a4cc56c920a6c9fc8ee45d02bccacd7f46c": [
+    "NULL-dereference"
+  ],
+  "d055126180564a57fe533728a4e93d0cb53d49b3": [
+    "deadlock"
+  ],
+  "20b329129009caf1c646152abe09b697227e1c37": [
+    "deadlock"
+  ],
+  "b0eec52fbe63fd8c3cffb8ef8d442c6fafb909b0": [
+    "use-after-free"
+  ],
+  "8f70397876872789b2a5deba804eb6216fb5deb7": [
+    "NULL-dereference"
+  ],
+  "a7f422f2f89e7d48aa66e6488444a4c7f01269d5": [
+    "use-after-free"
+  ],
+  "4363023d2668e621b0743db351a9555d6e6ea57e": [
+    "memory-leak"
+  ],
+  "09234b88ef5598252d1cee37e4d7b26a48b6557f": [
+    "memory-leak"
+  ],
+  "c80a0c52d85c49a910d0dc0e342e8d8898677dc0": [
+    "deadlock"
+  ],
+  "9e8efdb5787986cc0d0134925cf5c4f001bb3f2e": [
+    "NULL-dereference"
+  ],
+  "460181217a2496defc6c279b0a7eb810b05b9145": [
+    "use-after-free"
+  ],
+  "30d6f8c15d2cd877c1f3d47d8a1064649ebe58e2": [
+    "NULL-dereference"
+  ],
+  "4a55000722d74e4ad1ea4700a423e21fab0d53ba": [
+    "race-condition"
+  ],
+  "e13ee6cc4781edaf8c7321bee19217e3702ed481": [
+    "memory-leak",
+    "use-after-free"
+  ],
+  "3a54a215410b1650798dc09d051806b1f900142d": [
+    "buffer-overflow"
+  ],
+  "88ec3211e46344a7d10cf6cb5045f839f7785f8e": [
+    "buffer-overflow"
+  ],
+  "c583bcb8f5edd48c1798798e341f78afb9bf4f6f": [
+    "deadlock"
+  ],
+  "5329722057d41aebc31e391907a501feaa42f7d9": [
+    "NULL-dereference",
+    "kernel-panic"
+  ],
+  "e8b0b994c3a5881f0648d53f90435120089c56ad": [
+    "kernel-panic"
+  ],
+  "ba090f9cafd53dbabe0f0a8c4ccae44203d3731b": [
+    "kernel-panic"
+  ],
+  "ca4d632aef031c7946c42a6eb873d24ab6474f17": [
+    "buffer-overflow"
+  ],
+  "f3217d6f2f7a76b36a3326ad58c8897f4d5fbe31": [
+    "buffer-overflow"
+  ],
+  "f4693c2716b35d0846fd45a4ad7db78bfb25efc8": [
+    "buffer-overflow"
+  ],
+  "1996d9cad6ad4882a79464e9fb941a68c693f8fc": [
+    "NULL-dereference"
+  ],
+  "629ed3f7dad2a914b3a89fad49b358e363e3e6d1": [
+    "buffer-overflow"
+  ],
+  "439c7183e5b97952bba1747f5ffc4dea45a6a18b": [
+    "buffer-overflow"
+  ],
+  "d8123624506cd62730c9cd9c7672c698e462703d": [
+    "kernel-panic"
+  ],
+  "36e1e5ba90fb3fba6888fae26e4dfc28bf70aaf1": [
+    "use-after-free"
+  ],
+  "465e7baab6d93b399344f5868f84c177ab5cd16f": [
+    "deadlock"
+  ],
+  "1f889b58716a5f5e3e4fe0e6742c1a4472f29ac1": [
+    "race-condition"
+  ],
+  "381d34e376e3d9d27730fda8a0e870600e6c8196": [
+    "buffer-overflow"
+  ],
+  "20224d715a882210428ea62bba93f1bc4a0afe23": [
+    "buffer-overflow"
+  ],
+  "4f8217d5b0ca8ace78a27dc371b87697eedc421d": [
+    "buffer-overflow"
+  ],
+  "f36a74b9345aebaf5d325380df87a54720229d18": [
+    "kernel-panic"
+  ],
+  "11c514a99bb960941535134f0587102855e8ddee": [
+    "memory-leak"
+  ],
+  "478ba09edc1f2f2ee27180a06150cb2d1a686f9c": [
+    "race-condition"
+  ],
+  "6370cc3bbd8a0f9bf975b013781243ab147876c6": [
+    "memory-leak"
+  ],
+  "b02414c8f045ab3b9afc816c3735bc98c5c3d262": [
+    "deadlock"
+  ],
+  "372a1786283e50e7cb437ab7fdb1b95597310ad7": [
+    "memory-leak"
+  ],
+  "b3d91800d9ac35014e0349292273a6fa7938d402": [
+    "deadlock",
+    "race-condition"
+  ],
+  "c50eb518e262fa06bd334e6eec172eaf5d7a5bd9": [
+    "use-after-free"
+  ],
+  "65ff5cd04551daf2c11c7928e48fc3483391c900": [
+    "use-after-free"
+  ],
+  "e5e1a4bc916d29958c3b587354293738fcb984d7": [
+    "memory-leak"
+  ],
+  "761a8c58db6bc884994b28cd6d9707b467d680c1": [
+    "NULL-dereference"
+  ],
+  "a1301f08c5acf992d9c1fafddc84c3a822844b04": [
+    "NULL-dereference"
+  ],
+  "fbdd0049d98d44914fc57d4b91f867f4996c787b": [
+    "deadlock"
+  ],
+  "a67d5088ceb8c6143110c46ef1bd2d126dc1ac36": [
+    "memory-leak"
+  ],
+  "fe5186cf12e30facfe261e9be6c7904a170bd822": [
+    "memory-leak",
+    "use-after-free"
+  ],
+  "d5f1e6a2bb61db8d4bd269edac8b52a853b48ce8": [
+    "buffer-overflow"
+  ],
+  "95fb5b0258b7bd2d540102771e31cfd76b72aa7b": [
+    "use-after-free",
+    "kernel-panic"
+  ],
+  "266cd33b59138501579c64648f54b93eab2e5adf": [
+    "kernel-panic"
+  ],
+  "b944afc9d64ddf1b6a152c23ff86bf26e1fd430c": [
+    "memory-leak"
+  ],
+  "ecb8ac8b1f146915aa6b96449b66dd48984caacc": [
+    "memory-leak",
+    "race-condition"
+  ],
+  "3f388f28639fd19d5bf6df7a882c94ccfbf49c2b": [
+    "kernel-panic"
+  ],
+  "b94e02822debdf0cc473556aad7dcc859f216653": [
+    "race-condition"
+  ],
+  "10819e25799aae564005b6049a45e9808797b3bb": [
+    "memory-leak"
+  ],
+  "0e539ca1bbbe85a86549c97a30a765ada4a09df9": [
+    "NULL-dereference",
+    "deadlock"
+  ],
+  "a035b6bf863e5c42c2746de2a8ed6600140307e7": [
+    "kernel-panic"
+  ],
+  "3618ad2a7c0e78e4258386394d5d5f92a3dbccf8": [
+    "kernel-panic"
+  ],
+  "27c9c3424fc217dab4077122069fe4b4413dbf18": [
+    "memory-leak"
+  ],
+  "2e0d29561f593a5ab6d37ea032513d2714a007df": [
+    "race-condition"
+  ],
+  "5093402e5b449b64f7bbaa09057ce40a8f3c1484": [
+    "buffer-overflow"
+  ],
+  "743df8b7749fb5a289fc0c7ac94ec15533596839": [
+    "NULL-dereference"
+  ],
+  "5398ae698525572d4eb0531854158ece94385318": [
+    "NULL-dereference"
+  ],
+  "ad2b473e2ba39b43df4d2cad77ab6130665d8c31": [
+    "buffer-overflow"
+  ],
+  "ed42989eab57d619667d7e87dfbd8fe207db54fe": [
+    "memory-leak",
+    "use-after-free"
+  ],
+  "bf109c64040f5b6bfe8a7044667e11d62dff6d91": [
+    "NULL-dereference",
+    "kernel-panic"
+  ],
+  "e7ec96fc7932f48a6d6cdd05bf82004a1a04285b": [
+    "NULL-dereference"
+  ],
+  "49d7d695ca4bb2f62290c7039c4165556f0ca1e4": [
+    "race-condition"
+  ],
+  "2ad63dc8df6b6108aee82dc77c820e3918bc0a65": [
+    "kernel-panic"
+  ],
+  "f3c64eda3e5097ec3198cb271f5f504d65d67131": [
+    "race-condition"
+  ],
+  "1a11a88cfd9a97e13be8bc880c4795f9844fbbec": [
+    "race-condition"
+  ],
+  "2ceda20f0a99a74a82b78870f3b3e5fa93087a7f": [
+    "NULL-dereference"
+  ],
+  "8fccebfa534c7984864394fa03608305e4929aae": [
+    "race-condition"
+  ],
+  "38d715f494f2f1dddbf3d0c6e50aefff49519232": [
+    "deadlock"
+  ],
+  "63a1e5de3006f4ad713e4d72bcb404d0301e853d": [
+    "NULL-dereference"
+  ],
+  "5ce2dced8e95e76ff7439863a118a053a7fc6f91": [
+    "NULL-dereference"
+  ],
+  "3a6f0fb7b8eb5ef0447da1332225b8c87ee207d0": [
+    "buffer-overflow"
+  ],
+  "f5083d0cee08a4b87d5d7a5c57f60ec128bff997": [
+    "use-after-free"
+  ],
+  "975bc99a4a397d1b1584a99b4adb7948b6e6944b": [
+    "NULL-dereference"
+  ],
+  "410bd754cd73c4a2ac3856d9a03d7b08f9c906bf": [
+    "race-condition"
+  ],
+  "c055e3eae0f133d98e9c66ad136eefd811701b3a": [
+    "kernel-panic"
+  ],
+  "b3e79e7682e075326df8041b826b03453acacd0a": [
+    "buffer-overflow"
+  ],
+  "55707d531af62bd87c1b7e8d66fd9798094f9b3b": [
+    "kernel-panic"
+  ],
+  "a05bd85133357b0c1b0a52dda4ee4d7e31069f4f": [
+    "kernel-panic"
+  ],
+  "2626c269702e04bdcaaeac62ac8089281520b5ce": [
+    "memory-leak"
+  ],
+  "ff7ea04ad579c1f5f5aed73d2d5dc13314d25c75": [
+    "NULL-dereference"
+  ],
+  "14c9c014babedc6098bf4cd83c622997867bc0df": [
+    "NULL-dereference"
+  ],
+  "0c2915b8c6db108b1dfb240391cc5a175f97f15b": [
+    "deadlock"
+  ],
+  "529a1101212a785c5df92c314b0e718287150c3b": [
+    "memory-leak",
+    "buffer-overflow"
+  ],
+  "41c9c06c491a92e186e41ff64163fa74f08e15e6": [
+    "buffer-overflow"
+  ],
+  "e3aea296d86f0f2166f4ddc5e1325217f847e722": [
+    "kernel-panic"
+  ],
+  "d32de9130f6c79533508e2c7879f18997bfbe2a0": [
+    "kernel-panic"
+  ],
+  "b4c5f83ae3f3e2b3239751c304e424eace62448b": [
+    "kernel-panic"
+  ],
+  "aea6cb99703e17019e025aa71643b4d3e0a24413": [
+    "memory-leak"
+  ],
+  "008cfe4418b3dbda2ff820cdd7b1a5ce458ae444": [
+    "NULL-dereference",
+    "buffer-overflow"
+  ],
+  "251b6eebb6c4907659262d069341a31762efc761": [
+    "kernel-panic"
+  ],
+  "1cf7a12e09aa48512404bf3f0f429b73182ce793": [
+    "memory-leak"
+  ],
+  "d9f0d82f06c6775b3adb9e4925e27377bc87af54": [
+    "NULL-dereference"
+  ],
+  "5a7f555904671c0737819fe4d19bd6143de3f6c0": [
+    "buffer-overflow"
+  ],
+  "215525639631ade1d67e879fe2c3d7195daa9f59": [
+    "kernel-panic"
+  ],
+  "246cb7e49a70e5c4b71caed5df518693c345bab7": [
+    "NULL-dereference"
+  ],
+  "0fedc63fadf0404a729e73a35349481c8009c02f": [
+    "NULL-dereference",
+    "deadlock",
+    "race-condition"
+  ],
+  "fe5b5ab52e9d385d5e6d20e3ce2d2af69175f6ad": [
+    "kernel-panic"
+  ],
+  "96392ee5a13b992563cfe07d23ee30d333b89126": [
+    "memory-leak"
+  ],
+  "530b5affc675ade5db4a03f04ed7cd66806c8a1a": [
+    "NULL-dereference",
+    "use-after-free"
+  ],
+  "b7b6c38529c9ea8ebab287d84f27fca2472a5737": [
+    "buffer-overflow"
+  ],
+  "501ef013390b774e8e61000a78d1d640d6c3411d": [
+    "race-condition"
+  ],
+  "5f2df2a4583b0d7b85054f0c1820f11a01936d35": [
+    "race-condition"
+  ],
+  "9ce07ae5eb1d968c975a4dace0cac25d9e602c9a": [
+    "use-after-free"
+  ],
+  "ec0abae6dcdf7ef88607c869bf35a4b63ce1b370": [
+    "memory-leak",
+    "race-condition"
+  ],
+  "3318111cf63d97f1e1792ed4fdf9472e60b0a2cc": [
+    "memory-leak"
+  ],
+  "4192f7b5768912ceda82be2f83c87ea7181f9980": [
+    "NULL-dereference"
+  ],
+  "a748c6975dea325da540610c2ba9b5f332c603e6": [
+    "race-condition",
+    "NULL-dereference",
+    "use-after-free",
+    "buffer-overflow"
+  ],
+  "9211a441e60686eec2ebd8f7bd65c4f780416404": [
+    "kernel-panic"
+  ],
+  "8fd0e2a6df262539eaa28b0a2364cca10d1dc662": [
+    "use-after-free"
+  ],
+  "732d41c545bb359cbb8c94698bdc1f8bcf82279c": [
+    "use-after-free",
+    "kernel-panic"
+  ],
+  "3d2e7aec70130af53289eccd41696c15ce2c3e89": [
+    "use-after-free"
+  ],
+  "9006c133a422f474d7d8e10a8baae179f70c22f5": [
+    "kernel-panic"
+  ],
+  "c9a6b82f45e261d247b980a7949aaa6a9bfffe01": [
+    "deadlock"
+  ],
+  "a2e102e20fd69ce26ea9fe7bd0df26d25dafff59": [
+    "kernel-panic"
+  ],
+  "7db21530479f071ee0e0a4d5fcf5e6bc6c0352ba": [
+    "kernel-panic"
+  ],
+  "c118c7303ad528be8ff2aea8cd1ee15452c763f0": [
+    "buffer-overflow"
+  ],
+  "ff48b6222e65ebdba5a403ef1deba6214e749193": [
+    "use-after-free"
+  ],
+  "4aa1615268a8ac2b20096211d3f9ac53874067d7": [
+    "NULL-dereference"
+  ],
+  "911e1987efc8f3e6445955fbae7f54b428b92bd3": [
+    "kernel-panic"
+  ],
+  "f65886606c2d3b562716de030706dfe1bea4ed5e": [
+    "memory-leak",
+    "use-after-free"
+  ],
+  "0fc1a726f897acfa774b17eeb62b38480d1c9ea0": [
+    "NULL-dereference"
+  ],
+  "00b99ad2bac256e3e4f10214c77fce6603afca26": [
+    "deadlock"
+  ],
+  "8919a9b31eb4fb4c0a93e5fb350a626924302aa6": [
+    "memory-leak"
+  ],
+  "6bb14e48ee8d8ec23d191fd91de33f09da1ecce4": [
+    "use-after-free"
+  ],
+  "39c2d639ca183a400ba3259fa0825714cbb09c53": [
+    "memory-leak"
+  ],
+  "2f1e8ea726e9020e01e9e2ae29c2d5eb11133032": [
+    "race-condition"
+  ],
+  "7c6967326267bd5c0dded0a99541357d70dd11ac": [
+    "buffer-overflow"
+  ],
+  "b16939b59cc00231a75d224fd058d22c9d064976": [
+    "NULL-dereference"
+  ],
+  "09854ba94c6aad7886996bfbee2530b3d8a7f4f4": [
+    "race-condition"
+  ],
+  "cd89597bbe5a0179b3f0f51604cb36a1ffd4e080": [
+    "race-condition"
+  ],
+  "26e495f341075c09023ba16dee9a7f37a021e745": [
+    "NULL-dereference"
+  ],
+  "6180bb446ab624b9ab8bf201ed251ca87f07b413": [
+    "buffer-overflow"
+  ],
+  "b2be2b05cf3b1c7b499d3b05decdcc524879fea7": [
+    "NULL-dereference"
+  ],
+  "d25e37d89dd2f41d7acae0429039d2f0ae8b4a07": [
+    "race-condition"
+  ],
+  "f28e32d3906eac2e1cb3291b448f0d528ec93996": [
+    "NULL-dereference"
+  ],
+  "b5aea28dca13456c1a08b9b2ef8a8b92598ac426": [
+    "use-after-free"
+  ],
+  "45dd9943fce08f1b38352ff9453682253bdf19b7": [
+    "NULL-dereference"
+  ],
+  "a2e2d73fa28136598e84db9d021091f1b98cbb1a": [
+    "race-condition"
+  ],
+  "5317f37e48b953be94bfdbb6474542363467c37e": [
+    "buffer-overflow"
+  ],
+  "049fde130419c93fa667d4b41e29e6e7854d4939": [
+    "kernel-panic"
+  ],
+  "b972fdba8665d75109ade0357739f46af6415d2a": [
+    "NULL-dereference"
+  ],
+  "fdeba99b1e58ecd18c2940c453e19e4ef20ff591": [
+    "use-after-free",
+    "deadlock"
+  ],
+  "a48b73eca4ceb9b8a4b97f290a065335dbcd8a04": [
+    "deadlock"
+  ],
+  "feeaefd378cae2f6840f879d6123ef265f8aee79": [
+    "NULL-dereference"
+  ],
+  "b148bb238c02f0c7797efed026e9bba5892d2172": [
+    "NULL-dereference",
+    "kernel-panic",
+    "race-condition"
+  ],
+  "e918188611f073063415f40fae568fa4d86d9044": [
+    "deadlock"
+  ],
+  "c15e1bdda4365a5f17cdadf22bf1c1df13884a9e": [
+    "kernel-panic"
+  ],
+  "70d65cd555c5e43c613700f604a47f7ebcf7b6f1": [
+    "buffer-overflow"
+  ],
+  "f3ae59c0c01530ab48faf72cc678f92ad8aa7b4f": [
+    "memory-leak",
+    "NULL-dereference",
+    "use-after-free"
+  ],
+  "9d5cbf5fe46e350715389d89d0c350d83289a102": [
+    "NULL-dereference"
+  ],
+  "b1c32fcfadf5593ab7a63261cc8a5747c36e627e": [
+    "use-after-free"
+  ],
+  "39b3cffb8cf3111738ea993e2757ab382253d86a": [
+    "buffer-overflow"
+  ],
+  "d5643d2249b279077427b2c2b2ffae9b70c95b0b": [
+    "race-condition"
+  ],
+  "5586dd8ea250ab0851caeab6f461a9dbf57c806f": [
+    "race-condition"
+  ],
+  "1220f6a76e77af8ac14fe67a11fcd7806764ea46": [
+    "NULL-dereference"
+  ],
+  "edbd24ea1e5c72980b37ae2d271696b05274d509": [
+    "kernel-panic"
+  ],
+  "5b6d4a7f20b09c47ca598760f6dafd554af8b6d5": [
+    "NULL-dereference"
+  ],
+  "35759383133f64d90eba120a0d3efe8f71241650": [
+    "kernel-panic"
+  ],
+  "e15d7f2b81d2e7d93115d46fa931b366c1cdebc2": [
+    "buffer-overflow"
+  ],
+  "466a62d7642f02f36d37d9b30c19a725538a01ca": [
+    "use-after-free",
+    "buffer-overflow"
+  ],
+  "b4487b93545214a9db8cbf32e86411677b0cca21": [
+    "kernel-panic"
+  ],
+  "0f5907af39137f8183ed536aaa00f322d7365130": [
+    "memory-leak"
+  ],
+  "65bf2cf95d3ade4b56c35b17bb955a64b7f4b019": [
+    "kernel-panic"
+  ],
+  "bbe98f9cadff58cdd6a4acaeba0efa8565dabe65": [
+    "kernel-panic"
+  ],
+  "d70cec8983241a6aafadf78e2d65bbafac87ab6a": [
+    "NULL-dereference"
+  ],
+  "95868b85764aff2dcbf78d3054076df75446ad15": [
+    "memory-leak"
+  ],
+  "653055b9acd45d602435f2f70b7a85cb3130f018": [
+    "deadlock"
+  ],
+  "80982c7e834e5d4e325b6ce33757012ecafdf0bb": [
+    "race-condition"
+  ],
+  "0cb2f1372baa60af8456388a574af6133edd7d80": [
+    "NULL-dereference"
+  ],
+  "fa9967734227b44acb1b6918033f9122dc7825b9": [
+    "use-after-free"
+  ],
+  "2a9127fcf2296674d58024f83981f40b128fffea": [
+    "kernel-panic",
+    "race-condition"
+  ],
+  "eff73e16ee116f6eafa2be48fab42659a27cb453": [
+    "NULL-dereference"
+  ],
+  "142639a52a01e90c512a9a8d2156997e02a65b53": [
+    "buffer-overflow"
+  ],
+  "190873a0ea4500433ae818521cad20d37f9ee059": [
+    "use-after-free"
+  ],
+  "cb17ed29a7a5fea8c9bf70e8a05757d71650e025": [
+    "NULL-dereference"
+  ],
+  "e24ab0ef689de43649327f54cd1088f3dad25bb3": [
+    "use-after-free"
+  ],
+  "a0ff72f9f5a780341e7ff5e9ba50a0dad5fa1980": [
+    "memory-leak",
+    "use-after-free"
+  ],
+  "4ea2896715e6743ea79426106f3d078d78a80f9f": [
+    "memory-leak"
+  ],
+  "6a01afcf8468d3ca2bd8bbb27503f60dcf643b20": [
+    "memory-leak",
+    "use-after-free"
+  ],
+  "fe3c60684377d5ad9b0569b87ed3e26e12c8173b": [
+    "NULL-dereference"
+  ],
+  "868f3ee6e452bc2b89e68183a1700fcbbe0807b1": [
+    "NULL-dereference",
+    "race-condition"
+  ],
+  "77cc278f7b202e4f16f8596837219d02cb090b96": [
+    "deadlock"
+  ],
+  "6ecd0163d36049b5f2435a8658f1320c9f3f2924": [
+    "kernel-panic"
+  ],
+  "ca0f1a8055be2a04073af435dc68419334481638": [
+    "NULL-dereference"
+  ],
+  "a35129024e88cbb96c6fe93233a625be5b122311": [
+    "use-after-free"
+  ],
+  "4e8c36c3b0d73d46aa27cfd4308aaa445a1067df": [
+    "race-condition"
+  ],
+  "a7f8b1c2ac21bf081b41264c9cfd6260dffa6246": [
+    "deadlock"
+  ],
+  "026a4c28e1db3b0cb99cd9a3e495d4a8b632fa74": [
+    "NULL-dereference",
+    "kernel-panic"
+  ],
+  "a65878d6f00bb2d791348ae90dcc2ede1dbe2b91": [
+    "deadlock"
+  ],
+  "5574cb2194b13de78df68cd32655ddbe619b1251": [
+    "NULL-dereference"
+  ],
+  "9177514ce34902b3adb2abd490b6ad05d1cfcb43": [
+    "memory-leak"
+  ],
+  "02b9aec59243c6240fc42884acc958602146ddf6": [
+    "race-condition"
+  ],
+  "4cf8b7e48a09745145881b311fe6a9154ba69ebc": [
+    "NULL-dereference"
+  ],
+  "8885bb0621f01a6c82be60a91e5fc0f6e2f71186": [
+    "buffer-overflow"
+  ],
+  "faaff9765664009c1c7c65551d32e9ed3b1dda8f": [
+    "buffer-overflow"
+  ],
+  "9908c826d5ed150637a3a4c0eec5146a0c438f21": [
+    "buffer-overflow"
+  ],
+  "4b03b27349c03b72a084b2484623a744565bc399": [
+    "memory-leak"
+  ],
+  "8264ee69f0d82cc1b30edd9930c27b1e4273d00b": [
+    "buffer-overflow"
+  ],
+  "1f549009b5b2f26db01e334dc00db160ee12c0e1": [
+    "race-condition"
+  ],
+  "15d157e874437e381643c37a10922388d6e55b29": [
+    "buffer-overflow"
+  ],
+  "306c54d0edb6ba94d39877524dddebaad7770cf2": [
+    "use-after-free",
+    "race-condition"
+  ],
+  "ae372cb1750f6c95370f92fe5f5620e0954663ba": [
+    "kernel-panic"
+  ],
+  "24d34617c24f9d41953f76f2fbf282334584f5db": [
+    "buffer-overflow"
+  ],
+  "ca0e014609f05fab577dd251bb5400e815c9f3cf": [
+    "memory-leak",
+    "use-after-free"
+  ],
+  "ebb25defdc17b594715418f1aa99eeb9a217cf1f": [
+    "buffer-overflow"
+  ],
+  "fc66de8e16ec4d9b4d2696d961de4f81db78a1b6": [
+    "buffer-overflow"
+  ],
+  "137641287eb40260783a4413847a0aef06023a6c": [
+    "memory-leak"
+  ],
+  "9b15d109a6b2c0c604c588d49a5a927dac6dd616": [
+    "kernel-panic"
+  ],
+  "c369cb27c267fe3020f3b059618743532f73503b": [
+    "use-after-free"
+  ],
+  "ba608c4fa12cfd0cab0e153249c29441f4dd3312": [
+    "race-condition"
+  ],
+  "4d24e21cc694e7253a532fe5a9bde12b284f1317": [
+    "kernel-panic"
+  ],
+  "7836102a750a92ddec19b7cd997a76f05c0a16ea": [
+    "use-after-free"
+  ],
+  "f79a158d37c26015099f4a7fd7d6592bb2ad3054": [
+    "use-after-free"
+  ],
+  "4cf44be6f1e86da302085bf3e1dc2c86f3cdaaaa": [
+    "race-condition"
+  ],
+  "163e9ef63641a02de4c95cd921577265c52e1ce2": [
+    "race-condition"
+  ],
+  "3c5584bf0a0493e8d232ade65f4b9c5e995f3a0c": [
+    "use-after-free"
+  ],
+  "8a94644b440eef5a7b9c104ac8aa7a7f413e35e5": [
+    "NULL-dereference"
+  ],
+  "6c331254487306a633a3d8636ca78eb77a73906a": [
+    "race-condition"
+  ],
+  "f3bd9dae3708a0ff6b067e766073ffeb853301f9": [
+    "use-after-free"
+  ],
+  "bd3191b5d87d5ebc1d4149bbbb42a64ec3d469bf": [
+    "NULL-dereference"
+  ],
+  "12bc2132b15e0a969b3f455d90a5f215ef239eff": [
+    "NULL-dereference"
+  ],
+  "764075fdcb2f09baa23fdc4df4b79741e5c39b57": [
+    "NULL-dereference"
+  ],
+  "61f3b89630973037f67d8e25e5d26e80a51a7b37": [
+    "kernel-panic"
+  ],
+  "c085fb8774671e83f6199a8e838fbc0e57094029": [
+    "deadlock"
+  ],
+  "dbfb089d360b1cc623c51a2c7cf9b99eff78e0e7": [
+    "race-condition"
+  ],
+  "329b064fbd13d6526fdc35d4a220adedeadf0816": [
+    "kernel-panic"
+  ],
+  "951894cf30f417443d9e0eda33312613c2a7edf6": [
+    "deadlock"
+  ],
+  "d47a72152097d7be7cfc453d205196c0aa976c33": [
+    "race-condition"
+  ],
+  "d9ca7801b6e5ffdfd7a4ed3f287b277895e63e90": [
+    "buffer-overflow"
+  ],
+  "a9e821b89daa55cc940c546b124101939d3f0451": [
+    "buffer-overflow"
+  ],
+  "549b67da660d634e3a4a50a325bd1f5609ddb84b": [
+    "buffer-overflow"
+  ],
+  "a3b658cfb66497525278cbf852913a04dbaae992": [
+    "NULL-dereference"
+  ],
+  "26751de25d255eab7132a8024a893609456996e6": [
+    "kernel-panic"
+  ],
+  "4fe66d5a62fbe1b050e783e7a01f986632c08c44": [
+    "NULL-dereference"
+  ],
+  "9b6a3f3633a5cc928b78627764793b60cb62e0f6": [
+    "race-condition"
+  ],
+  "fa28dcb82a38f8e3993b0fae9106b1a80b59e4f0": [
+    "kernel-panic"
+  ],
+  "6a2febec338df7e7699a52d00b2e1207dcf65b28": [
+    "race-condition"
+  ],
+  "b23d7a5f4a07af02343cdd28fe1f7488bac3afda": [
+    "race-condition"
+  ],
+  "6cb63ea6a39eac9640d109f274a237b34350c183": [
+    "deadlock"
+  ],
+  "29d158f906907ce8e52ea75ec87b4e35461f2018": [
+    "deadlock"
+  ],
+  "0be0b0e33b0bfd08264b108512e44b3907fe987b": [
+    "use-after-free"
+  ],
+  "8fd738049ac3d67a937d36577763b47180aae1ad": [
+    "race-condition"
+  ],
+  "f518f154ecef347777db33b7c9b0581f245159f0": [
+    "NULL-dereference"
+  ],
+  "3042f83f19bec2e0cd356f72b39e4d816e8cd5ff": [
+    "deadlock"
+  ],
+  "9d3c447c72fb2337ca39f245c6ae89f2369de216": [
+    "NULL-dereference"
+  ],
+  "371a3bc79c11b707d7a1b7a2c938dc3cc042fffb": [
+    "buffer-overflow"
+  ],
+  "4185b3b92792eaec5869266e594338343421ffb0": [
+    "race-condition"
+  ],
+  "7ad816762f9bf89e940e618ea40c43138b479e10": [
+    "kernel-panic"
+  ],
+  "fe80536acf8397827be77f9b8ada384b90e790d0": [
+    "kernel-panic"
+  ],
+  "94d2d08974746bd0f469ec5c1e50c613de558bfc": [
+    "race-condition"
+  ],
+  "37d318d7805f25b672bfd74fc694f19a2ee9665d": [
+    "kernel-panic"
+  ],
+  "4ab59c3c638c6c8952bf07739805d20eb6358a4d": [
+    "NULL-dereference",
+    "use-after-free"
+  ],
+  "048eb908a1f276ca0346f20a3e6e7d707dcd81f3": [
+    "NULL-dereference",
+    "kernel-panic"
+  ],
+  "3b4b19721ec652ad2c4fe51dfbe5124212b5f581": [
+    "deadlock"
+  ],
+  "e9247e2ce5778678c8d631e26ef79dbccedbe6d0": [
+    "buffer-overflow"
+  ],
+  "f491276a5168598758ea7fc381195e4ba9af39f8": [
+    "use-after-free"
+  ],
+  "567ca57faa6266da931679fd4c4eb9863855f804": [
+    "use-after-free"
+  ],
+  "bd869245a3dcca1c8a77dfade7d3dc69a68365df": [
+    "deadlock"
+  ],
+  "272c2330adc9c68284cb0066719160c24bfe605f": [
+    "NULL-dereference"
+  ],
+  "6eefa839c4dddf2149e9f5f6f1aa3e1191c8db9c": [
+    "kernel-panic"
+  ],
+  "309758254ea62e07471abcaeca5b5c2173f4ebc2": [
+    "use-after-free"
+  ],
+  "dafabb6590cb15f300b77c095d50312e2c7c8e0f": [
+    "NULL-dereference",
+    "use-after-free"
+  ],
+  "6c41965d647a97b51ff665c7406ec9435aab7fc1": [
+    "NULL-dereference"
+  ],
+  "e5e1e7fd470ccf2eb38ab7fb5a3ab0fc4792fe53": [
+    "memory-leak"
+  ],
+  "207324a321a866401b098cadf19e4a2dd6584622": [
+    "NULL-dereference"
+  ],
+  "bbde017a32b32d2fa8d5fddca25fade20132abf8": [
+    "race-condition"
+  ],
+  "d8fe449a9c51a37d844ab607e14e2f5c657d3cf2": [
+    "memory-leak"
+  ],
+  "b13b04d9382113f787e21c9567a4022fef8697b9": [
+    "memory-leak"
+  ],
+  "b9cae27728d1f9c9ed858adf012adddfcd8d3802": [
+    "NULL-dereference"
+  ],
+  "e9c15badbb7b20ccdbadf5da14e0a68fbad51015": [
+    "kernel-panic"
+  ],
+  "8e04187c1bc7953f6dfad3400c58b1b0b0ad767b": [
+    "memory-leak"
+  ],
+  "6954a9e4192b86d778fb52b525fd7b62d51b1147": [
+    "race-condition"
+  ],
+  "2ad6691d988c0c611362ddc2aad89e0fb50e3261": [
+    "race-condition"
+  ],
+  "21e28290b31708b72763641604e239eb369c230d": [
+    "use-after-free"
+  ],
+  "9d06c4027f21fcfa60221bd7203eda3c82568467": [
+    "kernel-panic"
+  ],
+  "74601ecfef6e46cd8bc98e881e620bfc81bfddfb": [
+    "buffer-overflow"
+  ],
+  "787d563b8642f35c561e439ebaf7ee5653437d05": [
+    "kernel-panic"
+  ],
+  "0ec9dc9bcba0a62b0844e54c1caf6b8b0bf6b5b4": [
+    "kernel-panic"
+  ],
+  "3db978d480e2843979a2b56f2f7da726f2b295b2": [
+    "kernel-panic"
+  ],
+  "776f395004d829bbbf18c159ed9beb517a208c71": [
+    "use-after-free"
+  ],
+  "c36f05559104b66bcd7f617e931e38c680227b74": [
+    "memory-leak"
+  ],
+  "ebf71552bb0e690cad523ad175e8c4c89a33c333": [
+    "kernel-panic"
+  ],
+  "ddd89d0a059d8e9740c75a97e0efe9bf07ee51f9": [
+    "kernel-panic"
+  ],
+  "97ed3e509ee6d098730d137759c627a8d674cf55": [
+    "kernel-panic"
+  ],
+  "dde3c6b72a16c2db826f54b2d49bdea26c3534a2": [
+    "memory-leak",
+    "use-after-free"
+  ],
+  "c444eb564fb16645c172d550359cb3d75fe8a040": [
+    "deadlock"
+  ],
+  "d323bb44e4d23802eb25d13de1f93f2335bd60d0": [
+    "use-after-free"
+  ],
+  "193ba03141bb987c3af985f6479840030fec0534": [
+    "NULL-dereference"
+  ],
+  "4b68bf9a69d22dd512d61d5f0ba01b065b01ede6": [
+    "memory-leak"
+  ],
+  "81a16241114ba4e0b188e517e5e8522951dfeb7b": [
+    "buffer-overflow"
+  ],
+  "8692cefc433f282228fd44938dd4d26ed38254a2": [
+    "race-condition"
+  ],
+  "18644cec714aabbab173729192c7594ee57a406b": [
+    "use-after-free"
+  ],
+  "d21cb73a9025ffa9ef4f5a0d4051780c264fa02e": [
+    "buffer-overflow"
+  ],
+  "c1cf79ca5ced46ea6a7843cbe98836e4d51c6c52": [
+    "NULL-dereference"
+  ],
+  "b55230e5e800868961fc271b26d9ce53ae1f691e": [
+    "race-condition"
+  ],
+  "c343bf1ba5efcbf2266a1fe3baefec9cc82f867f": [
+    "memory-leak"
+  ],
+  "b8d47d8813055ce38c0d2ad913d5462017e52692": [
+    "memory-leak"
+  ],
+  "1597b374af22266266e1e20612208c4b11359ad4": [
+    "NULL-dereference"
+  ],
+  "04f9bf2bac72480ca1d289b751b956dd1707a5d5": [
+    "use-after-free"
+  ],
+  "da231338ec9c098707c8a1e4d8a50e2400e2fe17": [
+    "race-condition"
+  ],
+  "553f9328385d954644d74dedb655f85b687a9470": [
+    "NULL-dereference"
+  ],
+  "ae15e0ba1b333f391ab0d678abb752cb6a7f2782": [
+    "buffer-overflow"
+  ],
+  "e383085c24255821e79d3c2aa6302d804b6a1c48": [
+    "NULL-dereference"
+  ],
+  "7edd363421dab1d4806802ac65613d1c0ec85824": [
+    "buffer-overflow"
+  ],
+  "64f5e9cdd711b030b05062c17b2ecfbce890cf4c": [
+    "memory-leak"
+  ],
+  "e62753e4e2926f249d088cc0517be5ed4efec6d6": [
+    "memory-leak"
+  ],
+  "1518ac272e789cae8c555d69951b032a275b7602": [
+    "memory-leak",
+    "NULL-dereference"
+  ],
+  "32e5b57232c0411e7dea96625c415510430ac079": [
+    "use-after-free"
+  ],
+  "7974c4732642f710b5111165ae1f7f7fed822282": [
+    "buffer-overflow"
+  ],
+  "06081646450e46efcc1ca58c3b227bd60083cd3e": [
+    "buffer-overflow"
+  ],
+  "ee04805ff54a63ffd90bc6749ebfe73473734ddb": [
+    "use-after-free"
+  ],
+  "4c559f15efcc43b996f4da528cd7f9483aaca36d": [
+    "buffer-overflow"
+  ],
+  "8d809c15acf23bb2863ec08578ab72de860b3abc": [
+    "memory-leak"
+  ],
+  "a37f232b7b65789cadc9834d389f6390de11b583": [
+    "NULL-dereference"
+  ],
+  "c6e7bd7afaeb3af55ffac122828035f1c01d1d7b": [
+    "NULL-dereference",
+    "race-condition"
+  ],
+  "e18d4e9fa79bb27de6447c0c172bb1c428a52bb2": [
+    "race-condition"
+  ],
+  "114dbb4fa7c4053a51964d112e2851e818e085c6": [
+    "NULL-dereference"
+  ],
+  "b9dd3f6d417258ad0beeb292a1bc74200149f15d": [
+    "use-after-free"
+  ],
+  "b5d250744cccfb40024de663ea1f4da04e6d959c": [
+    "NULL-dereference"
+  ],
+  "6a0953ce7de918b06f7fed561754ad114fd964c1": [
+    "deadlock"
+  ],
+  "5567d11c21a1d508a91a8cb64a819783a0835d9f": [
+    "kernel-panic"
+  ],
+  "4b8f380e46e4d3f8e9f6f9545fe2b78b872b6070": [
+    "buffer-overflow"
+  ],
+  "116ac378bb3ff844df333e7609e7604651a0db9d": [
+    "kernel-panic"
+  ],
+  "6ee1b77ba3ac0a79fc6f3273f3b27b13240a355e": [
+    "buffer-overflow"
+  ],
+  "56722a4398a306585ca3ed39ff54fc907af98618": [
+    "race-condition"
+  ],
+  "dbfe7d74376e187f3c6eaff822e85176bc2cd06e": [
+    "NULL-dereference",
+    "kernel-panic"
+  ],
+  "fb529e62d3f3e85001108213dc323c35f2765575": [
+    "deadlock"
+  ],
+  "729cd6436f359b6e618c2f14836d419f40444503": [
+    "NULL-dereference",
+    "race-condition"
+  ],
+  "10ce77e4817fef99e1166be7e6685a80c63bf77f": [
+    "use-after-free"
+  ],
+  "e9d1a0a41d4486955e96552293c1fcf1fce61602": [
+    "kernel-panic"
+  ],
+  "fa37a213275c6f80b8bc15189e28faeac948ba4c": [
+    "kernel-panic"
+  ],
+  "e0489ed5daeb48cf182c4c98da4a873f947f2afa": [
+    "race-condition"
+  ],
+  "ec9742a8f38ef69876e9f04be68d985c6bbb8f5f": [
+    "kernel-panic"
+  ],
+  "1901b91f99821955eac2bd48fe25ee983385dc00": [
+    "NULL-dereference"
+  ],
+  "37d4f8a6b41f622608671ab8434194c819a5e444": [
+    "kernel-panic"
+  ],
+  "b2ce4d90690bd29ce5b554e203cd03682dd59697": [
+    "kernel-panic"
+  ],
+  "28df3d1539de5090f7916f6fff03891b67f366f4": [
+    "NULL-dereference"
+  ],
+  "53de3b080d5eae31d0de219617155dcc34e7d698": [
+    "race-condition"
+  ],
+  "7d14b0d2b9b317cfc14161143e2006b95a5da9b1": [
+    "NULL-dereference"
+  ],
+  "6e728f321393b1fce9e1c2c3e55f9f7c15991321": [
+    "use-after-free"
+  ],
+  "d16a8c31077e75ecb9427fbfea59b74eed00f698": [
+    "kernel-panic"
+  ],
+  "b673e24aad36981f327a6570412ffa7754de8911": [
+    "buffer-overflow"
+  ],
+  "0cb7498f234e4e7d75187a8cae6c7c2053f2488a": [
+    "buffer-overflow"
+  ],
+  "e8dfb81838b14f82521968343884665b996646ef": [
+    "memory-leak"
+  ],
+  "f187b6974f6dfbeba4aafda972cc37f27d091b73": [
+    "use-after-free"
+  ],
+  "a6a4c7e2c5b8b981d1c546a393ff21f2112468c3": [
+    "use-after-free"
+  ],
+  "e4d8b05ad5f9db85ef7285dbf51a1ad357f4e4c8": [
+    "buffer-overflow"
+  ],
+  "56bc3b2094b428d808dd1704fdb3086c66bcb310": [
+    "kernel-panic"
+  ],
+  "f9c6cea0b38518741c8dcf26ac056d26ee2fd61d": [
+    "NULL-dereference"
+  ],
+  "09f012e64e4b8126ed6f02d0a85a57c3a0465cf9": [
+    "kernel-panic"
+  ],
+  "334710b1496af8a0960e70121f850e209c20958f": [
+    "kernel-panic"
+  ],
+  "7c4310ff56422ea43418305d22bbc5fe19150ec4": [
+    "use-after-free"
+  ],
+  "c3e302edca2457bbd0c958c445a7538fbf6a6ac8": [
+    "NULL-dereference"
+  ],
+  "4becb7ee5b3d2829ed7b9261a245a77d5b7de902": [
+    "NULL-dereference",
+    "kernel-panic"
+  ],
+  "4593e772b5020e714e18f6e212d70b24fbe88b79": [
+    "use-after-free"
+  ],
+  "2d744ecf2b98405723a2138a547e5c75009bc4e5": [
+    "NULL-dereference"
+  ],
+  "f3c034f6177569e1d27a7f3aaa755910201bc2d2": [
+    "kernel-panic"
+  ],
+  "c59f415a7cb6e1e1e1cdbd6ee370b050e95f6b21": [
+    "NULL-dereference"
+  ],
+  "8012209eb26b7819385a6ec6eae4b1d0a0dbe585": [
+    "use-after-free",
+    "buffer-overflow"
+  ],
+  "d339cd02b888eb8c4508fd772120782eac59a9fa": [
+    "kernel-panic"
+  ],
+  "a4055e74a2ff7c70ccdb6c36254ad5181464f211": [
+    "kernel-panic"
+  ],
+  "80ae679b8f8679418018787ce8fdbf2684c10df7": [
+    "kernel-panic"
+  ],
+  "97f2650e504033376e8813691cb6eccf73151676": [
+    "memory-leak"
+  ],
+  "435cbab95e3966cd8310addd9e9b758dce0e8b84": [
+    "race-condition"
+  ],
+  "82046702e288bdd81673b81ab5138e498d155918": [
+    "kernel-panic"
+  ],
+  "ef67963dac255b293e19815ea3d440567be4626f": [
+    "use-after-free",
+    "race-condition"
+  ],
+  "9a98e7a80f95378c9ee0c644705e3b5aa54745f1": [
+    "kernel-panic"
+  ],
+  "7527810573436f00e582d3d5ef2eb3c027c98d7d": [
+    "race-condition"
+  ],
+  "d570aec0f2154e1bfba14ffd0df164a185e363b5": [
+    "race-condition"
+  ],
+  "8a857c55420f29da4fc131adc22b12d474c48f4c": [
+    "kernel-panic"
+  ],
+  "145cb2f7177d94bc54563ed26027e952ee0ae03c": [
+    "use-after-free"
+  ],
+  "5bf73b1b1deca46c7459cb4d732ba8bad6da93c5": [
+    "NULL-dereference"
+  ],
+  "63d04348371b7ea4a134bcf47c79763d969e9168": [
+    "NULL-dereference"
+  ],
+  "d8355240cf8fb8b9e002b5c8458578435cea85c2": [
+    "use-after-free"
+  ],
+  "cddae808aeb77e5c29d22a8e0dfbdaed413f9e04": [
+    "use-after-free"
+  ],
+  "629ba12e9998f344389e096a7cec6286c86ed7ab": [
+    "use-after-free"
+  ],
+  "f0adbc382b8bb46a2467c4e5e1027763a197c8e1": [
+    "NULL-dereference"
+  ],
+  "6f91ea283a1ed23e4a548ddd62db6deb2c707f82": [
+    "memory-leak"
+  ],
+  "8806211fe7b30696c1fcae54b73c94abfdf55893": [
+    "NULL-dereference"
+  ],
+  "9e343b467c70379e66b8b771d96f03ae23eba351": [
+    "kernel-panic"
+  ],
+  "5bd70440cb0a6f5c6a84019bb2aa93ab8310a5cd": [
+    "deadlock"
+  ],
+  "7dba92037baf3fa00b4880a31fd532542264994c": [
+    "use-after-free"
+  ],
+  "52e04b4ce5d03775b6a78f3ed1097480faacc9fd": [
+    "race-condition"
+  ],
+  "595571cca4dec8ac48122a6d2733f790c9a2cade": [
+    "use-after-free"
+  ],
+  "b1f573bd15fda2e19ea66a4d26fae8be1b12791d": [
+    "NULL-dereference"
+  ],
+  "d3ef5536274faf89e626276b833be122a16bdb81": [
+    "buffer-overflow"
+  ],
+  "afa3b592953bfaecfb4f2f335ec5f935cff56804": [
+    "use-after-free"
+  ],
+  "120c9257f5f19e5d1e87efcbb5531b7cd81b7d74": [
+    "deadlock"
+  ],
+  "d2bedb7863e9817f71fe2332a85ecdbd0f264b4b": [
+    "NULL-dereference"
+  ],
+  "4426e945df588f2878affddf88a51259200f7e29": [
+    "kernel-panic"
+  ],
+  "3202fa62fb43087387c65bfa9c100feffac74aa6": [
+    "kernel-panic"
+  ],
+  "59832e246515ab6a4f5aa878073e6f415aa35166": [
+    "race-condition"
+  ],
+  "0b4f33def7bbde1ce2fea05f116639270e7acdc7": [
+    "kernel-panic"
+  ],
+  "c6425702f21e68d7c8c293b6bfaa5a389076efe5": [
+    "race-condition"
+  ],
+  "8edf5332c39340b9583cf9cba659eb7ec71f75b5": [
+    "race-condition"
+  ],
+  "62582a7ee78364c6106d09d5e0f1dc7f564be887": [
+    "deadlock"
+  ],
+  "fbc821c4a506a960e85f3e97e32cfab63d43f7d0": [
+    "NULL-dereference"
+  ],
+  "0e7ab7efe77451cba4cbecb6c9f5ef83cf32b36b": [
+    "use-after-free"
+  ],
+  "72acd9df18f12420001f901493c54b7364f34d60": [
+    "memory-leak"
+  ],
+  "0c81604516afc0f3aedbb4dcf8215df7e5c7ef32": [
+    "buffer-overflow"
+  ],
+  "7ef19d3b1d5e2e1dad64d41df708638f20c5917f": [
+    "memory-leak"
+  ],
+  "2e46a2a0b0149f951b63be1b5df6514676fed213": [
+    "use-after-free"
+  ],
+  "2cbf7fc6718b9443ecd6261308c6348d8ffcccae": [
+    "NULL-dereference"
+  ],
+  "97ef275077932c65b1b8ec5022abd737a9fbf3e0": [
+    "kernel-panic"
+  ],
+  "791c13b709dd51eb37330f2a5837434e90c87c27": [
+    "NULL-dereference"
+  ],
+  "ce1518139e6976cf19c133b555083354fdb629b8": [
+    "race-condition"
+  ],
+  "a926f81d2f6c51458e116c5b3ff3af471b56098f": [
+    "kernel-panic"
+  ],
+  "dbb152267908c4b2c3639492a94b6838821bc195": [
+    "deadlock"
+  ],
+  "c3c123d16c0ed4a81b9b18d3759a31c58b2fe504": [
+    "race-condition"
+  ],
+  "9a293d1e21a6461a11b4217b155bf445e57f4131": [
+    "race-condition"
+  ],
+  "31603d4fc2bb4f0815245d496cb970b27b4f636a": [
+    "kernel-panic"
+  ],
+  "0a8068a3dd4294ebd8b99969cdc6ccde0f944ba6": [
+    "race-condition"
+  ],
+  "05a5a7621ce66c142e081ffc24dd6ade6e912061": [
+    "deadlock"
+  ],
+  "d4953f7ef1a2e87ef732823af35361404d13fea8": [
+    "use-after-free"
+  ],
+  "52aeda7accb6d2e511a1b89142cbbf6fd2c12565": [
+    "kernel-panic"
+  ],
+  "8e7102273f597dbb38af43da874f8c123f8e6dbe": [
+    "kernel-panic"
+  ],
+  "d41e2f3bd54699f85b3d6f45abd09fa24a222cb9": [
+    "NULL-dereference"
+  ],
+  "bf516f413f4e8741ed83056429c24dd3ad648f09": [
+    "kernel-panic"
+  ],
+  "65038428b2c6c5be79d3f78a6b79c0cdc3a58a41": [
+    "NULL-dereference",
+    "use-after-free"
+  ],
+  "1b93a88431470ea0b943157999084d9c7e6e3bd3": [
+    "buffer-overflow"
+  ],
+  "275678e7a9be6a0ea9c1bb493e48abf2f4a01be5": [
+    "kernel-panic"
+  ],
+  "bcfbd3523f3c6eea51a74d217a8ebc5463bcb7f4": [
+    "use-after-free"
+  ],
+  "f2b816d78a94319b7230430c3d1f99d9f1cb5bd0": [
+    "use-after-free"
+  ],
+  "28321582334c261c13b20d7efe634e610b4c100b": [
+    "kernel-panic"
+  ],
+  "30623e1ed116bcd1785217d0a98eec643687e091": [
+    "buffer-overflow"
+  ],
+  "6a8824a74bc9dccb2cae5caa993d2ec09f4694f2": [
+    "NULL-dereference"
+  ],
+  "57aadb46bd634c7889403220dcd110c7ff2c4868": [
+    "deadlock"
+  ],
+  "36947254e5f981aeeedab1c7dfa35fc34d330e80": [
+    "use-after-free",
+    "buffer-overflow"
+  ],
+  "3c9e502b59fbd243cfac7cc6c875e432d285102a": [
+    "race-condition"
+  ],
+  "f2997775b111c6d660c32a18d5d44d37cb7361b1": [
+    "NULL-dereference",
+    "race-condition"
+  ],
+  "2363d73a2f3e92787f336721c40918ba2eb0c74c": [
+    "NULL-dereference"
+  ],
+  "4094445229760d0d31a4190dfe88fe815c9fc34e": [
+    "memory-leak",
+    "use-after-free",
+    "kernel-panic"
+  ],
+  "88bf6e4114d5af685c11c02ce95efa7c7494e940": [
+    "NULL-dereference"
+  ],
+  "61fad6816fc10fb8793a925d5c1256d1c3db0cd2": [
+    "race-condition"
+  ],
+  "4cd729fa022cb5142e5b65f25589af61c8148cf6": [
+    "race-condition"
+  ],
+  "1769c4c575489be28891c98f1e3f0a4252ca750a": [
+    "memory-leak"
+  ],
+  "88db6d1e4f6222d22c1c4b4d4d7166cfa9d2fe0e": [
+    "buffer-overflow"
+  ],
+  "1320a4052ea11eb2879eb7361da15a106a780972": [
+    "kernel-panic"
+  ],
+  "081da1325d351ea8804cf74e65263ea120834f33": [
+    "race-condition"
+  ],
+  "4cda75275f9f89f9485b0ca4d6950c95258a9bce": [
+    "NULL-dereference"
+  ],
+  "469b390e1ba330e888175e55d78573db2e9a8cb4": [
+    "NULL-dereference"
+  ],
+  "7d7195a026bac47ac9943f11f84b7546276209dd": [
+    "memory-leak",
+    "race-condition"
+  ],
+  "d752a4986532cb6305dfd5290a614cde8072769d": [
+    "deadlock"
+  ],
+  "d8ecca4043f2d9d89daab7915eca8c2ec6254d0f": [
+    "kernel-panic"
+  ],
+  "f2ecf903ef06eb1bbbfa969db9889643d487e73a": [
+    "buffer-overflow"
+  ],
+  "954ab5cc5f3e0bc764df81a13f065936a85e2084": [
+    "race-condition"
+  ],
+  "de65d0556343132222a9f48417c2bad82e3a7503": [
+    "race-condition"
+  ],
+  "66614ab2be38ac292c6f314110bde0be79751b2b": [
+    "kernel-panic"
+  ],
+  "c1e2148f8ecb26863b899d402a823dab8e26efd1": [
+    "race-condition"
+  ],
+  "6d390e4b5d48ec03bb87e63cf0a2bff5f4e116da": [
+    "use-after-free",
+    "race-condition"
+  ],
+  "95ed6c707f26a727a29972b60469630ae10d579c": [
+    "NULL-dereference"
+  ],
+  "51891498f2da78ee64dfad88fa53c9e85fb50abf": [
+    "memory-leak",
+    "race-condition"
+  ],
+  "6ba43b761c41349140662e223401bec0e48950e7": [
+    "use-after-free"
+  ],
+  "5a2e745d4d430c4dbeeeb448c3d5c0c3109e511e": [
+    "use-after-free"
+  ],
+  "de5ed007a03d71daaa505f5daa4d3666530c7090": [
+    "NULL-dereference",
+    "race-condition"
+  ],
+  "77131dfec6af114efd32610b4a6bbecd934e37d5": [
+    "kernel-panic"
+  ],
+  "07d985eef07348345870f1062797852cb4489b83": [
+    "NULL-dereference"
+  ],
+  "f0fe2c0f050d31babcad7d65f1d550d462a40064": [
+    "NULL-dereference",
+    "use-after-free"
+  ],
+  "61231f6bd0565ad8539e425dc48d547702e40930": [
+    "race-condition"
+  ],
+  "b102f0c522cf668c8382c56a4f771b37d011cda2": [
+    "memory-leak"
+  ],
+  "ed1dd899baa32d47d9a93d98336472da50564346": [
+    "buffer-overflow"
+  ],
+  "dd87f87d87fa4359a54e7b44549742f579e3e805": [
+    "kernel-panic"
+  ],
+  "69879c01a0c3f70e0887cfb4d9ff439814361e46": [
+    "use-after-free"
+  ],
+  "aaec7c03de92c35a96966631989950e6e27662db": [
+    "NULL-dereference"
+  ],
+  "3d35dbe6224e60a249dd492b0f757828db559c52": [
+    "kernel-panic"
+  ],
+  "084ea4d611a3d00ee3930400b262240e10895900": [
+    "kernel-panic"
+  ],
+  "61fbae2b2b1201525f8f0f35e0bdf6dfa8ec8541": [
+    "NULL-dereference"
+  ],
+  "6c4b13b51aa36aab023dd0bf24bf5582c9ba091e": [
+    "kernel-panic"
+  ],
+  "60ee9be2557124aa007e6e12e78def2f55d1b64b": [
+    "deadlock"
+  ],
+  "eb0249d50153a8edf2c0cfbf281199813980c8d4": [
+    "NULL-dereference"
+  ],
+  "84823ff80f7403752b59e00bb198724100dc611c": [
+    "race-condition",
+    "buffer-overflow"
+  ],
+  "cc62c74749a3cacfac126a6f6dfc2f40bd58a79e": [
+    "use-after-free"
+  ],
+  "aa9eda76129c9f44c4dd7e233b04bc70c0f56e12": [
+    "kernel-panic"
+  ],
+  "a59c99d9eaf90e6426d9bfe3b0a5e5b78010c72e": [
+    "deadlock"
+  ],
+  "08df16e07ad0a1ec0ccf9a154014cb80e82c773e": [
+    "buffer-overflow"
+  ],
+  "9951ebfcdf2b97dbb28a5d930458424341e61aa2": [
+    "memory-leak"
+  ],
+  "fff7b64355eac6e29b50229ad1512315bc04b44e": [
+    "race-condition"
+  ],
+  "2976908e4198aa02fc3f76802358f69396267189": [
+    "buffer-overflow"
+  ],
+  "5d30f92e7631286b8617777c5400c8eadcae50a1": [
+    "kernel-panic"
+  ],
+  "f904f15ea9b5c379d58e3c7d85862baf1adf7370": [
+    "deadlock"
+  ],
+  "eab2404ba798a8efda2a970f44071c3406d94e57": [
+    "deadlock"
+  ],
+  "fa46c6fb5d61b1f17b06d7c6ef75478b576304c7": [
+    "race-condition"
+  ],
+  "1a2703bd73566dabab7733f14bfd5cce5cabb748": [
+    "NULL-dereference",
+    "race-condition"
+  ],
+  "184d8e13f9b13313f711f028ca2465f973459046": [
+    "race-condition"
+  ],
+  "a6bfb6d13f3325fd5cc3646f558b67c40ea823d0": [
+    "kernel-panic"
+  ],
+  "0b41713b606694257b90d61ba7e2712d8457648b": [
+    "buffer-overflow"
+  ],
+  "e37a0c313a0f8ba0b8de9c30db98fbc77bd8d446": [
+    "NULL-dereference"
+  ],
+  "07e6124a1a46b4b5a9b3cacc0c306b50da87abf5": [
+    "race-condition"
+  ],
+  "1dd017882e01d2fcd9c5dbbf1eb376211111c393": [
+    "kernel-panic"
+  ],
+  "88b7381a939de0fa1f1b1629c56b03dca7077309": [
+    "race-condition"
+  ],
+  "cf0ee7c60c89641f6e4d1d3c7867fe32b9e30300": [
+    "memory-leak",
+    "use-after-free"
+  ],
+  "28553fa992cb28be6a65566681aac6cafabb4f2d": [
+    "deadlock",
+    "race-condition"
+  ],
+  "64914da24ea95d2b2f7017d014d74c26005d8780": [
+    "race-condition"
+  ],
+  "5d3c644773925c3568617435e42a9404a114c428": [
+    "race-condition"
+  ],
+  "e3728b50cd9be7d4b1469447cdf1feb93e3b7adb": [
+    "race-condition"
+  ],
+  "fc57313d1017dd6b6f37a94e88daa8df54368ecc": [
+    "memory-leak",
+    "NULL-dereference"
+  ],
+  "c4a3922d2d20c710f827d3a115ee338e8d0467df": [
+    "race-condition"
+  ],
+  "86b18aaa2b5b5bb48e609cd591b3d2d0fdbe0442": [
+    "race-condition"
+  ],
+  "1ad6f58ea9364b0a5d8ae06249653ac9304a8578": [
+    "memory-leak"
+  ],
+  "f458d039db7e8518041db4169d657407e3217008": [
+    "buffer-overflow"
+  ],
+  "8937d762396d22bdb59f02732a66db6b58e746b1": [
+    "NULL-dereference"
+  ],
+  "599be01ee567b61f4471ee8078870847d0a11e8e": [
+    "buffer-overflow"
+  ],
+  "c5b2cbdbdac563f46ecd5e187253ab1abbd6fc04": [
+    "race-condition"
+  ],
+  "68f23b89067fdf187763e75a56087550624fdbee": [
+    "kernel-panic"
+  ],
+  "d380dcde9a07ca5de4805dee11f58a98ec0ad6ff": [
+    "memory-leak"
+  ],
+  "66f2d19f8116e16898f8d82e28573a384ddc430d": [
+    "memory-leak",
+    "use-after-free"
+  ],
+  "9cd10205227cbe9bbd48fd6bf78dad88b45526b0": [
+    "memory-leak"
+  ],
+  "dabf6b36b83a18d57e3d4b9d50544ed040d86255": [
+    "memory-leak"
+  ],
+  "4fbc0c711b2464ee1551850b85002faae0b775d5": [
+    "kernel-panic"
+  ],
+  "3978eb78517c1fc06dd75405d732af45c80f5bd2": [
+    "buffer-overflow"
+  ],
+  "3a1296a38d0cf62bffb9a03c585cbd5dbf15d596": [
+    "use-after-free"
+  ],
+  "d0cb50185ae942b03c4327be322055d622dc79f6": [
+    "NULL-dereference"
+  ],
+  "028474876f472c3b6eee633aed528a1206609657": [
+    "kernel-panic",
+    "deadlock"
+  ],
+  "aad6aa0cd674b7935957354666f82e5b2cdc813d": [
+    "buffer-overflow"
+  ],
+  "5b14557b073c96a7cf79adc4d7b6c4a8c26b2a43": [
+    "deadlock"
+  ],
+  "717e79c867ca5f27815578815feafa3f3944f06b": [
+    "race-condition"
+  ],
+  "6a24f567af4accef6d73b0be407227c537b94a1f": [
+    "buffer-overflow"
+  ],
+  "4602dce0361ebc67b9bfbed9338eee588e3c7e7e": [
+    "buffer-overflow"
+  ],
+  "2b8bd606b1e60ca28c765f69c1eedd7d2a2e9dca": [
+    "buffer-overflow"
+  ],
+  "e81274cd6b5264809384066e09a5253708822522": [
+    "kernel-panic"
+  ],
+  "d2fb0a0438384fee08a418025f743913020033ce": [
+    "use-after-free"
+  ],
+  "8ad8b72721d0f07fa02dbe71f901743f9c71c8e6": [
+    "NULL-dereference"
+  ],
+  "5c7bac9fb2c5929a3b8600c45a972aabf9f410b5": [
+    "kernel-panic"
+  ],
+  "6beea7afcc72b86986080ea1d228a42f2000f2a9": [
+    "NULL-dereference",
+    "race-condition"
+  ],
+  "08df0d9a00f7ca07511614dd3b137fadd2de56fc": [
+    "deadlock"
+  ],
+  "af4bac11531fbc0b5955fdccbe3f5ea265cd7374": [
+    "kernel-panic"
+  ],
+  "cb626bf566eb4433318d35681286c494f04fedcc": [
+    "memory-leak"
+  ],
+  "8c6bb62f6b4a24c446511e8f894251946dcc2ef1": [
+    "deadlock"
+  ],
+  "c1ca757bd6f4632c510714631ddcc2d13030fe1e": [
+    "race-condition"
+  ],
+  "334b0f4e9b1b4a1d475f803419d202f6c5e4d18e": [
+    "deadlock"
+  ],
+  "e9153311491da9d9863ead9888a1613531cb4a1b": [
+    "deadlock"
+  ],
+  "7d2d2bfdeb82c383f5cd8b93b1c234249c1a588c": [
+    "buffer-overflow",
+    "race-condition"
+  ],
+  "bc83caddf17bd592cc19887e252c4ba416484d79": [
+    "NULL-dereference"
+  ],
+  "a7965d58ddab0253ddfae58bd5c7d2de46ef0f76": [
+    "kernel-panic"
+  ],
+  "f3c893e3dbb5d94f94072f7b1f2a8aece6240e7e": [
+    "use-after-free"
+  ],
+  "b65053cd94f46619b4aae746b98f2d8d9274540e": [
+    "memory-leak"
+  ],
+  "aa2e93b8e58e18442edfb2427446732415bc215e": [
+    "memory-leak"
+  ],
+  "5c5e52d1bb962510fecdc1ebecdde89694d1b223": [
+    "memory-leak"
+  ],
+  "e04df98adf7d7d946aa927822ccec24680501662": [
+    "memory-leak"
+  ],
+  "dcb780fb279514f268826f2e9f4df3bc75610703": [
+    "NULL-dereference"
+  ],
+  "8d7e5dee972f1cde2ba96c621f1541fa36e7d4f4": [
+    "deadlock"
+  ],
+  "7684b8582c24537dbe079a7d40e1d7e57ca56939": [
+    "kernel-panic"
+  ],
+  "f458ac479777c627c9b92ab640afec3bfa150660": [
+    "kernel-panic"
+  ],
+  "cd82d82cbc0484e47918d3166f356c98f0066db8": [
+    "NULL-dereference"
+  ],
+  "2a127da461a9d8d97782d6e82b227041393eb4d2": [
+    "memory-leak"
+  ],
+  "536577f36ff7afd0a0aff4ebef62db8afe6fc904": [
+    "use-after-free"
+  ],
+  "a43f72ae136a816a3cceab8957dd3aa301263281": [
+    "use-after-free"
+  ],
+  "a64c9e15e6247e89ad16021b8d5d6d53c34d7ee7": [
+    "deadlock"
+  ],
+  "b86d895524ab7281da8ca788e3666ab622fc8620": [
+    "NULL-dereference"
+  ],
+  "a6f3b62386a02c1e94bfa22c543f82d63f5e631b": [
+    "deadlock"
+  ],
+  "e10360f815ca6367357b2c2cfef17fc663e50f7b": [
+    "memory-leak"
+  ],
+  "8413502238168561acf1e2137eaea6af4004e506": [
+    "race-condition"
+  ],
+  "ce57785bf91b1ceaef4f4bffed8a47dc0919c8da": [
+    "use-after-free"
+  ],
+  "1f45ebe0d8fbe6178670b663005f38ef8535db5d": [
+    "NULL-dereference"
+  ],
+  "0d08c9ec7d6eb9b4c8639396b1cc6f692cbb7955": [
+    "buffer-overflow",
+    "race-condition"
+  ],
+  "8df955a32a73315055e0cd187cbb1cea5820394b": [
+    "memory-leak",
+    "use-after-free"
+  ]
+}

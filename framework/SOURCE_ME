@@ -1,0 +1,7 @@
+### Regarding Joern, just install the Joern v1.1.356 from the official git.
+
+THIS_DIR=$(dirname "${BASH_SOURCE[0]}" | xargs realpath)
+
+export PATH=$LLVM_ROOT:$PATH
+export PATH=$THIS_DIR/frontend:$PATH
+export PATH=$THIS_DIR/joern/joern-cli:$PATH
