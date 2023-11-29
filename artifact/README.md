@@ -18,4 +18,5 @@ You can create figures by typing `make` on each directory if there is a correspo
  - `sec2.2-weight_dist`: The distribution of AFLChurn-style weights (Figure 3).
  - `sec8.2-pattern_risks`: The risks of the 23 patterns (Figure 10).
  - `sec8.3-rc_weighting`: The comparison of the AFLChurn-style-based and pattern-based weight distributions (Figure 11).
+ - `sec8.4-tte_comparison`: The TTE comparison between fuzzers (Table 4).
  - `sec8.5-complete`: The intersection of discovered bugs between different fuzzers (Figure 12).
