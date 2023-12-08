@@ -20,12 +20,30 @@ $ . SOURCE_ME
  1. Set the path to your (Git-managed) target project.
 ```
 $ kfc-repo <dir/path/to/proj>
+``` 
+
+ 2. (optional) Develop your own pattern.
+```
+$ # wip
 ```
 
+ 3. Match patterns to the target's commit history.
+```
+$ kfc-match -d <yyyy-mm-dd>:<yyyy-mm-dd>
+```
 
- 3. (optional) Develop your own pattern.
+ 4. Estimate pattern risks.
+```
+$ kfc-risk
+```
+
+ 5. Generate weights.
+```
+$ kfc-weight   # produces a weight profile in JSON.
+```
 
 <details>
+<summary>Click here for details.</summary>
  
 ## System Requirement
 
