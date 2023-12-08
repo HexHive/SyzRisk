@@ -1,5 +1,7 @@
 # SyzRisk
 
+SyzRisk [ASIA CCS'24] is a change-pattern-based kernel regression fuzzer that prioritizes potentially risky code changes in the recent patch commits.
+
 ## Directory Overview
 
 - `artifact`: Artifact data used in the paper [ASIA CCS'24].
@@ -9,3 +11,7 @@
     - Risk estimation
     - Weight calculation
 - `syzkaller`: Syzkaller with regression fuzzing support.
+
+## Reference
+
+ - Gwangmu Lee, Duo Xu, Solmaz Salimi, Byoungyoung Lee, and Mathias Payer. 2024. "SyzRisk: A Change-Pattern-Based Continuous Kernel Regression Fuzzer." In ACM ASIA Conference on Computer and Communications Security (ASIA CCS ’24), July 01–05, 2024, Singapore.
