@@ -23,4 +23,4 @@ You can create figures by typing `make` on each directory if there is a correspo
 
 ## Note
 
-Please let us know if some figure-drawing scripts don't function correctly.
+Please let us know if some figure-drawing scripts don't function correctly (e.g., via issue tracker or e-mail).
