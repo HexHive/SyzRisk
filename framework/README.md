@@ -22,22 +22,17 @@ $ . SOURCE_ME
 $ kfc-repo <dir/path/to/proj>
 ``` 
 
- 2. (optional) Develop your own pattern.
-```
-$ # wip
-```
-
- 3. Match patterns to the target's commit history.
+ 2. Match patterns to the target's commit history.
 ```
 $ kfc-match -d <yyyy-mm-dd>:<yyyy-mm-dd>
 ```
 
- 4. Estimate pattern risks.
+ 3. Estimate pattern risks.
 ```
 $ kfc-risk
 ```
 
- 5. Generate weights.
+ 4. Generate weights.
 ```
 $ kfc-weight   # produces a weight profile in JSON.
 ```
@@ -67,7 +62,16 @@ You may source `SOURCE_ME` after every time you log in again or put it in your `
 
 ### Overview
 
+### 1. Setting the target project path
 
+### 2. Matching patterns
+
+### 3. Estimating pattern risks
+
+### 4. Generating weights
+
+
+## Developing custom patterns
 
 
 ## TODOs
