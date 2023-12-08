@@ -11,6 +11,19 @@ The recommended usage roughly follows the same order, too.
 
 ## Tl;dr
 
+ 0. Install.
+```
+$ ./install.sh
+$ . SOURCE_ME
+```
+
+ 1. Set the path to your (Git-managed) target project.
+```
+$ kfc-repo <dir/path/to/proj>
+```
+
+
+ 3. (optional) Develop your own pattern.
 
 ---
 
@@ -23,11 +36,13 @@ The recommended usage roughly follows the same order, too.
 Other OSes _may_ work well without problems, especially on another Linux distro. Smaller memory space can be problematic with some parts (e.g., pattern matching during risk estimation and weight generation).
 
 
-## Build
+## Install
 
  1. Run `install.sh`: `$ ./install.sh`
  2. Source `SOURCE_ME`: `$ . SOURCE_ME`
  3. That's it.
+
+You may source `SOURCE_ME` after every time you log in again or put it in your `.bashrc` to do it automatically.
 
 
 ## Usage
@@ -48,3 +63,9 @@ However, replacing it is pretty straightforward. We can either improve or rewrit
  - Exposing tunable parameters to a config file.
 
 Some tunable parameters are sprinkled across the scripts as hard-coded numbers (e.g., the risk/weight bound), as there is no good enough reason why they _should_ take on the values they have now. It'd be great to set these parameters using a tidy config file.
+
+ - Optimizing the usage of Joern.
+
+Currently, the scripts are simply invoking the command line Joern _every time_ it matches a new batch of functions. The problem is the initialization time of the command line Joern is pretty prohibitable, and I don't think it's even necessary. I tried to utilize the workspace reset feature instead of launching the entire Joern again, but it was not entirely resetting Joern, leaking memory, and eventually killed by OOM.
+
+This could have been fixed in the recent Joern version, but I'm not sure the newer version could introduce another problem (Joern can sometimes be unstable). If not, we can tweak Joern to have a (sort of) forkserver facility that launches a new clean-slate Joern instance right after the initialization.
