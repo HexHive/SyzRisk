@@ -25,8 +25,7 @@ $ kfc-repo <dir/path/to/proj>
 
  3. (optional) Develop your own pattern.
 
----
-
+<details>
 ## System Requirement
 
  - OS: Ubuntu 20.04
@@ -58,3 +57,5 @@ You may source `SOURCE_ME` after every time you log in again or put it in your `
  - [Exposing tunable parameters to a config file.](./todo/param.md)
  - [Optimizing the usage of Joern.](./todo/joern.md)
  - [Improving the database management.](./todo/db.md)
+
+</details>
