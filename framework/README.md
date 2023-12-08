@@ -15,7 +15,7 @@ The recommended usage roughly follows the same order, too.
  - CPU: Intel(R) i7-8665
  - Memory: 16GB
 
-Other OSes _may_ work well without problems, especially on another Linux distro.
+Other OSes _may_ work well without problems, especially on another Linux distro. Smaller memory space can be problematic with some parts (e.g., pattern matching during risk estimation and weight generation).
 
 ## Build
 
