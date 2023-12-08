@@ -9,7 +9,7 @@ The pre-fuzzing components of SyzRisk, including:
 
 The recommended usage roughly follows the same order, too.
 
-## Tl;dr
+## Summary
 
  0. Install.
 ```
@@ -26,6 +26,7 @@ $ kfc-repo <dir/path/to/proj>
  3. (optional) Develop your own pattern.
 
 <details>
+ 
 ## System Requirement
 
  - OS: Ubuntu 20.04
