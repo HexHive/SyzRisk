@@ -19,16 +19,8 @@ Other OSes _may_ work well without problems, especially on another Linux distro.
 
 ## Build
 
- 1. Run `install.sh`.
-```
-$ ./install.sh
-```
-
- 2. Source `SOURCE_ME`.
-```
-$ . SOURCE_ME
-```
-
+ 1. Run `install.sh`: `$ ./install.sh`
+ 2. Source `SOURCE_ME`: `$ . SOURCE_ME`
  3. That's it.
 
 ## Usage
