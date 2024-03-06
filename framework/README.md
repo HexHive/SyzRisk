@@ -9,7 +9,7 @@ The pre-fuzzing components of SyzRisk, including:
 
 The recommended usage roughly follows the same order, too.
 
-## Tl;dr
+## Summary
 
  0. Install.
 ```
@@ -20,13 +20,26 @@ $ . SOURCE_ME
  1. Set the path to your (Git-managed) target project.
 ```
 $ kfc-repo <dir/path/to/proj>
+``` 
+
+ 2. Match patterns to the target's commit history.
+```
+$ kfc-match -d <yyyy-mm-dd>:<yyyy-mm-dd>
 ```
 
+ 3. Estimate pattern risks.
+```
+$ kfc-risk
+```
 
- 3. (optional) Develop your own pattern.
+ 4. Generate weights.
+```
+$ kfc-weight   # produces a weight profile in JSON.
+```
 
----
-
+<details>
+<summary>Click here for details.</summary>
+ 
 ## System Requirement
 
  - OS: Ubuntu 20.04
@@ -45,11 +58,7 @@ Other OSes _may_ work well without problems, especially on another Linux distro.
 You may source `SOURCE_ME` after every time you log in again or put it in your `.bashrc` to do it automatically.
 
 
-## Usage
-
-### Overview
-
-### Developing Custom Patterns
+## Developing Custom Patterns
 
 Diff-level and function-level patterns reside in
 `pipeline/anal{diff,func}/matcher`, respectively. Upon startup, the matcher
@@ -57,7 +66,7 @@ engines scan corresponding directories and conveniently recognize all available
 pattern descriptions for you. All you need to do is to place a new pattern
 description in the directory.
 
-#### Diff-level Pattern
+### Diff-level Pattern
 
  1. Create a subdirectory under `analdiff/matcher` named after your pattern.
     Let's say the pattern is called `skraa`.
@@ -146,3 +155,5 @@ $ cp entering_goto.sc papapa.sc
  - [Exposing tunable parameters to a config file.](./todo/param.md)
  - [Optimizing the usage of Joern.](./todo/joern.md)
  - [Improving the database management.](./todo/db.md)
+
+</details>
