@@ -21,7 +21,7 @@ follows.
   "procs": 6,
   "type": "qemu",
   "reproduce": false,
-  "weight_map": "weights/pattern.json",   # <<< this right here.
+  "weight_map": "func_weights.json",   # <<< this right here.
   "vm": {
     "count": 4,
     "kernel": "linux-6.0/arch/x86/boot/bzImage",
