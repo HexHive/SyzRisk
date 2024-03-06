@@ -40,6 +40,6 @@ follows.
    `.patch` file, but there is no point in doing this if it is applicable to
    only _one specific version_ of Syzkaller; why not just upload the
    `.patch`-applied one? It's not like the storage space is scarce. In this
-   regard, I would highly appreciate it if somebody can make this into a
+   regard, I would highly appreciate it if somebody could make this into a
    _version-generic_ patch that can be applied to most of the recent Syzkaller
    versions. It should be doable with scripts.
