@@ -14,4 +14,13 @@ SyzRisk [ASIA CCS'24] is a change-pattern-based kernel regression fuzzer that pr
 
 ## Reference
 
- - Gwangmu Lee, Duo Xu, Solmaz Salimi, Byoungyoung Lee, and Mathias Payer. 2024. "SyzRisk: A Change-Pattern-Based Continuous Kernel Regression Fuzzer." In ACM ASIA Conference on Computer and Communications Security (ASIA CCS ’24), July 01–05, 2024, Singapore.
+ - Gwangmu Lee, Duo Xu, Solmaz Salimi, Byoungyoung Lee, and Mathias Payer. 2024. "SyzRisk: A Change-Pattern-Based Continuous Kernel Regression Fuzzer." In ACM ASIA Conference on Computer and Communications Security (ASIA CCS ’24), July 01–05, 2024, Singapore. [[paper]](./paper.pdf)
+
+```bibtex
+@inproceedings{lee2024syzrisk,
+  title = {{SyzRisk}: A Change-Pattern-Based Continuous Kernel Regression Fuzzer}, 
+  author = {Gwangmu Lee, Duo Xu, Solmaz Salimi, Byoungyoung Lee, and Mathias Payer},
+  booktitle = {ACM ASIA Conference on Computer and Communications Security (ASIA CCS ’24)},
+  year = {2024}
+}
+```
