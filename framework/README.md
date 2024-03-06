@@ -76,7 +76,7 @@ $ cd analdiff/matcher
 $ mkdir skraa
 ```
 
- 2. Prepare the directory. For now, it only require one `__init__.py` file and
+ 2. Prepare the directory. For now, it only requires one `__init__.py` file and
     one symbolic link called `common` that points to the `common` directory at
     the root.
 
@@ -86,7 +86,7 @@ $ ln -s ../../../../common common
 ```
 
  3. Steal a pattern description from another pattern for a starting point.
-    `chained_deref` is so simple, it might as well be a de-facto template.
+    `chained_deref` is so simple that it might as well be a de-facto template.
 
 ```
 $ cp ../chained_deref/main.py .
@@ -101,14 +101,14 @@ $ cp ../chained_deref/main.py .
 
     - `OnAnalysisBegin()`: called once upon the startup of the matcher engine.
     - `OnCommitBegin()`: called at the beginning of a commit. You might want to
-      reset some of state variables for your description here.
-    - `OnDiffLine()`: called when the matcher engine hit a new diff line.
+      reset some of the state variables for your description here.
+    - `OnDiffLine()`: called when the matcher engine hits a new diff line.
         - `line`: the code subject to this diff.
         - `scope_type`: the scope of this code. (i.e., `func`, `struct`, `init`, or `enum`)
         - `scope_name`: the name of the scope. (e.g., function name)
         - `diff_type`: the type of this diff. (i.e., `+` or `-`)
     - `OnCommitEnd()`: called at the end of a commit. **This should return a set
-      of the name of matched functions.**
+      of the names of matched functions.**
     - `OnAnalysisEnd()`: called at the end of the matcher engine.
 
 ### Function-level Pattern
@@ -119,7 +119,7 @@ Function-level pattern descriptions are written in Scala and incorporate
 [Joern](https://joern.io/) syntax, as the matcher engine uses it for matching
 jobs.
 
- 1. (Again) Steal one of existing matchers for a starting point. Let's steal
+ 1. (Again) Steal one of the existing matchers for a starting point. Let's steal
     `entering_goto.sc` this time and name it `papapa`.
 
 ```
