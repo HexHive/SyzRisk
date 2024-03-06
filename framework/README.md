@@ -61,18 +61,17 @@ You may source `SOURCE_ME` after every time you log in again or put it in your `
 ## Developing Custom Patterns
 
 Diff-level and function-level patterns reside in
-`pipeline/anal{diff,func}/matcher`, respectively. Upon startup, the matcher
-engines scan corresponding directories and conveniently recognize all available
-pattern descriptions for you. All you need to do is to place a new pattern
-description in the directory.
+`pipeline/anal{diff,func}/matcher`, respectively. 
 
 ### Diff-level Pattern
 
- 1. Create a subdirectory under `analdiff/matcher` named after your pattern.
+Upon startup, the diff-level matcher engines scan corresponding directories and conveniently recognize all available pattern descriptions. You simply need to place a new pattern description in the directory.
+
+ 1. Create a subdirectory named after your pattern under `pipeline/analdiff/matcher`.
     Let's say the pattern is called `skraa`.
 
 ```
-$ cd analdiff/matcher
+$ cd pipeline/analdiff/matcher
 $ mkdir skraa
 ```
 
@@ -97,7 +96,7 @@ $ cp ../chained_deref/main.py .
     purposes. 
 
  5. Implement callback functions. You can use whatever Python package you want.
-    I recommend to refer to other pattern descriptions for example.
+    I recommend referring to other pattern descriptions for examples.
 
     - `OnAnalysisBegin()`: called once upon the startup of the matcher engine.
     - `OnCommitBegin()`: called at the beginning of a commit. You might want to
@@ -113,8 +112,8 @@ $ cp ../chained_deref/main.py .
 
 ### Function-level Pattern
 
-Like diff-level patterns, new function-level patterns will be automatically
-recognized by the matcher engine as long as they reside in `analfunc/matcher`.
+Unlike diff-level patterns, new function-level patterns need to be manually
+registered to the matcher engine.
 Function-level pattern descriptions are written in Scala and incorporate
 [Joern](https://joern.io/) syntax, as the matcher engine uses it for matching
 jobs.
@@ -123,13 +122,14 @@ jobs.
     `entering_goto.sc` this time and name it `papapa`.
 
 ```
-$ cd analfunc/matcher
+$ cd pipeline/analfunc/matcher
 $ cp entering_goto.sc papapa.sc
 ```
 
  2. In a stolen description, rename the matcher name.
 
 ```scala
+/* papapa.sc */
 - object EnteringGotoMatcher extends Matcher {
 + object PapapaMatcher extends Matcher {
 ```
@@ -140,7 +140,16 @@ $ cp entering_goto.sc papapa.sc
       whichever analysis Joern supports (check Joern for the list of supported
       analyses).
 
- 4. Implement the matcher body (i.e., `Run()`). 
+ 4. Add your matcher to `pipeline/analfunc/decl.sc` to register it.
+
+```scala
+/* decl.sc */
+  val MATCHERS: Map[String, Matcher] = Map(
+    /* --- */
++  PapapaMatcher.name    -> PapapaMatcher,
+```
+
+ 5. Implement the matcher body (i.e., `Run()`). 
     - `method`: the current function under pattern matching.
     - `version`: the version of this method body (i.e., `old` or `new`).
     - `GetMetadata()`: (callable) returns corresponding metadata.
@@ -155,5 +164,10 @@ $ cp entering_goto.sc papapa.sc
  - [Exposing tunable parameters to a config file.](./todo/param.md)
  - [Optimizing the usage of Joern.](./todo/joern.md)
  - [Improving the database management.](./todo/db.md)
+
+## Miscellaneous
+
+ - Q: What are all front-end scripts prefixed with `kfc`?
+    - It was a codename for **k**ernel **f**uzzing with **c**ommits. It was finger-licking good.
 
 </details>
