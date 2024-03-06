@@ -146,7 +146,7 @@ $ cp entering_goto.sc papapa.sc
 /* decl.sc */
   val MATCHERS: Map[String, Matcher] = Map(
     /* --- */
-+  PapapaMatcher.name    -> PapapaMatcher,
++   PapapaMatcher.name    -> PapapaMatcher,
 ```
 
  5. Implement the matcher body (i.e., `Run()`). 
