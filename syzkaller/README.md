@@ -35,3 +35,11 @@ follows.
  - It's based on the commit `2b253ced7f2f` (Sep 21, 2022) and selectively
    applied the "bluetooth hci" patch from `6feb842be06b` (Nov 7, 2022) as the
    corresponding Syzkaller bug caused too severe slowdown.
+
+ - The change is so minimal that it should be able to extract it with one
+   `.patch` file, but there is no point in doing this if it is applicable to
+   only _one specific version_ of Syzkaller; why not just upload the
+   `.patch`-applied one? It's not like the storage space is scarce. In this
+   regard, I would highly appreciate it if somebody can make this into a
+   _version-generic_ patch that can be applied to most of the recent Syzkaller
+   versions. It should be doable with scripts.
