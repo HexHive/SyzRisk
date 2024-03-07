@@ -8,7 +8,7 @@ Specify `weight_map` in the Syzkaller configuration to set the weight profile
 from the matcher engine (the JSON file).  Everything else is _exactly_
 the same. The example configuration:
 
-```
+```diff
 {
   "target": "linux/amd64",
   "http": "127.0.0.1:56741",
@@ -20,7 +20,7 @@ the same. The example configuration:
   "procs": 6,
   "type": "qemu",
   "reproduce": false,
-  "weight_map": "func_weights.json",   # <<< this right here.
++ "weight_map": "func_weights.json",
   "vm": {
     "count": 4,
     "kernel": "linux-6.0/arch/x86/boot/bzImage",
