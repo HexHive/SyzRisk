@@ -144,9 +144,9 @@ $ cp entering_goto.sc papapa.sc
 
 ```scala
 /* decl.sc */
-  val MATCHERS: Map[String, Matcher] = Map(
-    /* --- */
-+   PapapaMatcher.name    -> PapapaMatcher,
+val MATCHERS: Map[String, Matcher] = Map(
+  /* --- */
++ PapapaMatcher.name    -> PapapaMatcher,
 ```
 
  5. Implement the matcher body (i.e., `Run()`). 
