@@ -91,7 +91,7 @@ $ ln -s ../../../../common common
 $ cp ../chained_deref/main.py .
 ```
 
- 4. Specify `NAME`, `SHORT_NAME`, AND `DESCRIPTION`. Not all of them are in
+ 4. Specify `NAME`, `SHORT_NAME`, and `DESCRIPTION`. Not all of them are in
     active use for the matcher engine now, but it's still good for clarification
     purposes. 
 
