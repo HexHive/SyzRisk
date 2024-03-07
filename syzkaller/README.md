@@ -12,14 +12,20 @@ the same. The example configuration:
 {
   "target": "linux/amd64",
   "http": "127.0.0.1:56741",
-  ...
+  "workdir": "workdir",
+  "kernel_obj": "linux-6.0",
+  "image": "image/stretch.img",
+  "sshkey": "image/stretch.id_rsa",
+  "syzkaller": "syzkaller",
+  "procs": 6,
   "type": "qemu",
 + "weight_map": "func_weights.json",
   "vm": {
     "count": 4,
-    ...
+    "kernel": "linux-6.0/arch/x86/boot/bzImage",
+    "mem": 2048
+  }
 }
-```
 
 ## Note
 
