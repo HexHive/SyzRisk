@@ -32,8 +32,8 @@ the same. The example configuration:
 ## Note
 
  - It's based on the commit `2b253ced7f2f` (Sep 21, 2022) and selectively
-   applied the "bluetooth hci" patch from `6feb842be06b` (Nov 7, 2022) as the
-   corresponding Syzkaller bug caused too severe slowdown.
+   applied the "Bluetooth HCI" patch from `6feb842be06b` (Nov 7, 2022) as the
+   corresponding Syzkaller bug caused a too severe slowdown.
 
  - As long as the JSON file follows the same format as the engine-generated one, it'll work just as fine. You can fiddle with different weighting strategies using this (if you need to).
 
