@@ -128,7 +128,7 @@ $ cp entering_goto.sc papapa.sc
 
  2. In a stolen description, rename the matcher name.
 
-```scala
+```diff
 /* papapa.sc */
 - object EnteringGotoMatcher extends Matcher {
 + object PapapaMatcher extends Matcher {
@@ -142,7 +142,7 @@ $ cp entering_goto.sc papapa.sc
 
  4. Add your matcher to `pipeline/analfunc/decl.sc` to register it.
 
-```scala
+```diff
 /* decl.sc */
 val MATCHERS: Map[String, Matcher] = Map(
   /* --- */
