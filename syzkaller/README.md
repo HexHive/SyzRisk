@@ -34,7 +34,7 @@ the same. The example configuration:
    applied the "Bluetooth HCI" patch from `6feb842be06b` (Nov 7, 2022) as the
    corresponding Syzkaller bug caused a too severe slowdown.
 
- - As long as the JSON file follows the same format as the engine-generated one, it'll work just as fine. You can fiddle with different weighting strategies using this (if you need to).
+ - As long as the JSON file follows the same format as the engine-generated one, it'll work just as fine. You can fiddle with different weights (or weighting strategies) using this (if you need to).
 
  - The change is so minimal that it should be able to extract it with one
    `.patch` file, but there is no point in doing this if it is applicable to
