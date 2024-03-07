@@ -4,10 +4,9 @@ Adapted [Syzkaller](https://github.com/google/syzkaller) for SyzRisk.
 
 ## Usage
 
-Specify `weight_map` in the configuration file to set the weight profile
-produced by the matcher engine (the JSON file).  Everything else is _exactly_
-the same as in the original Syzkaller. The example configuration file is as
-follows.
+Specify `weight_map` in the Syzkaller configuration to set the weight profile
+from the matcher engine (the JSON file).  Everything else is _exactly_
+the same. The example configuration:
 
 ```
 {
