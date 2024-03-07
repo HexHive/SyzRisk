@@ -26,6 +26,7 @@ the same. The example configuration:
     "mem": 2048
   }
 }
+```
 
 ## Note
 
