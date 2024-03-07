@@ -168,6 +168,6 @@ $ cp entering_goto.sc papapa.sc
 ## Miscellaneous
 
  - Q: What are all front-end scripts prefixed with `kfc`?
-    - It was a codename for **k**ernel **f**uzzing with **c**ommits. It was finger-licking good.
+    - It was a codename for **k**ernel **f**uzzing with **c**ommits. And it was finger-licking good.
 
 </details>
