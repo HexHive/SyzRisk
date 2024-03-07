@@ -145,7 +145,6 @@ $ cp entering_goto.sc papapa.sc
 ```diff
 /* decl.sc */
 val MATCHERS: Map[String, Matcher] = Map(
-  /* --- */
 + PapapaMatcher.name    -> PapapaMatcher,
 ```
 
