@@ -35,10 +35,12 @@ the same. The example configuration:
    applied the "bluetooth hci" patch from `6feb842be06b` (Nov 7, 2022) as the
    corresponding Syzkaller bug caused too severe slowdown.
 
+ - As long as the JSON file follows the same format as the engine-generated one, it'll work just as fine. You can fiddle with different weighting strategies using this (if you need to).
+
  - The change is so minimal that it should be able to extract it with one
    `.patch` file, but there is no point in doing this if it is applicable to
    only _one specific version_ of Syzkaller; why not just upload the
-   `.patch`-applied one? It's not like the storage space is scarce. In this
+   `.patch`-applied one? In this
    regard, I would highly appreciate it if somebody could make this into a
    _version-generic_ patch that can be applied to most of the recent Syzkaller
    versions. It should be doable with scripts.
