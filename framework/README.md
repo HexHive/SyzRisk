@@ -170,7 +170,7 @@ val MATCHERS: Map[String, Matcher] = Map(
  - [Exposing tunable parameters to a config file.](./todo/param.md)
  - [Optimizing the usage of Joern.](./todo/joern.md)
  - [Improving the database management.](./todo/db.md)
- - Wrapping the dataset script with a front-end script.
+ - Wrapping the dataset collection step with a front-end script.
 
 ## Acknowdgement
 
