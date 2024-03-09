@@ -20,7 +20,10 @@ $ . SOURCE_ME
  1. Set the path to your (Git-managed) target project.
 ```
 $ kfc-repo <dir/path/to/proj>
-``` 
+```
+
+ 2. Collect a ground-truth root cause dataset.
+  
 
  2. Match patterns to the target's commit history.
 ```
@@ -163,9 +166,5 @@ val MATCHERS: Map[String, Matcher] = Map(
  - [Exposing tunable parameters to a config file.](./todo/param.md)
  - [Optimizing the usage of Joern.](./todo/joern.md)
  - [Improving the database management.](./todo/db.md)
-
-## Note
-
- - Use `util/live-rc` to prepare the identifiable root cause database (Linux only).
 
 </details>
