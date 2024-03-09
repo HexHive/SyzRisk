@@ -164,9 +164,8 @@ val MATCHERS: Map[String, Matcher] = Map(
  - [Optimizing the usage of Joern.](./todo/joern.md)
  - [Improving the database management.](./todo/db.md)
 
-## Miscellaneous
+## Note
 
- - Q: What are all front-end scripts prefixed with `kfc`?
-    - It was a codename for **k**ernel **f**uzzing with **c**ommits. And it was finger-licking good.
+ - Use `util/live-rc` to collect the identifiable root cause database (Linux only).
 
 </details>
