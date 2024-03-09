@@ -174,6 +174,6 @@ val MATCHERS: Map[String, Matcher] = Map(
 
 ## Acknowdgement
 
- - Courtesy of Cheolwoo Myung (cwmyung@snu.ac.kr, [@ir0nc0w]) for the dataset collection script (`util/live-rc`) 
+ - Courtesy of Cheolwoo Myung (cwmyung@snu.ac.kr, [@ir0nc0w](https://github.com/ir0nc0w)) for the dataset collection script (`util/live-rc`) 
 
 </details>
