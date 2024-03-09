@@ -29,17 +29,17 @@ $ python3 util/live-rc/main.py --init --db data/rc --repo <path/to/local/linux/r
 $ mv data/rc/gitDB.json data/rc/linux-rc-info.json
 ```
 
- 2. Match patterns to the target's commit history.
+ 3. Match patterns to the target's commit history.
 ```
 $ kfc-match -d <yyyy-mm-dd>:<yyyy-mm-dd>
 ```
 
- 3. Estimate pattern risks.
+ 4. Estimate pattern risks.
 ```
 $ kfc-risk
 ```
 
- 4. Generate weights.
+ 5. Generate weights.
 ```
 $ kfc-weight   # produces a weight profile in JSON.
 ```
