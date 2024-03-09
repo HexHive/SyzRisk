@@ -23,7 +23,11 @@ $ kfc-repo <dir/path/to/proj>
 ```
 
  2. Collect a ground-truth root cause dataset.
-  
+```
+$ mkdir -p data/rc
+$ python3 util/live-rc/main.py --init --db data/rc --repo <path-to-linux>
+$ mv data/rc/gitDB.json data/rc/linux-rc-info.json
+```
 
  2. Match patterns to the target's commit history.
 ```
