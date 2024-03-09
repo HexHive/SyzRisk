@@ -25,7 +25,7 @@ $ kfc-repo <dir/path/to/proj>
  2. Collect a ground-truth root cause dataset.
 ```
 $ mkdir -p data/rc
-$ python3 util/live-rc/main.py --init --db data/rc --repo <path-to-linux>
+$ python3 util/live-rc/main.py --init --db data/rc --repo <path/to/local/linux/repo>
 $ mv data/rc/gitDB.json data/rc/linux-rc-info.json
 ```
 
@@ -166,9 +166,10 @@ val MATCHERS: Map[String, Matcher] = Map(
 
 ## TODOs
 
- - [Replacing the function extractor to a nicer version.](./todo/extfunc.md)
+ - [Replacing the function extractor and the diff-level engine to a nicer version.](./todo/extfunc.md)
  - [Exposing tunable parameters to a config file.](./todo/param.md)
  - [Optimizing the usage of Joern.](./todo/joern.md)
  - [Improving the database management.](./todo/db.md)
+ - Wrapping the dataset script with a front-end script.
 
 </details>
