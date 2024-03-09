@@ -166,6 +166,6 @@ val MATCHERS: Map[String, Matcher] = Map(
 
 ## Note
 
- - Use `util/live-rc` to collect the identifiable root cause database (Linux only).
+ - Use `util/live-rc` to prepare the identifiable root cause database (Linux only).
 
 </details>
