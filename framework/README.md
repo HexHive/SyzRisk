@@ -161,8 +161,8 @@ val MATCHERS: Map[String, Matcher] = Map(
     - `GetMetadata()`: (callable) returns corresponding metadata.
         - `ATTRS`: recognizable function attributes.
         - `HEXSHA`: hexsha of this commit.
-    - **This should return True or False depending on whether the current
-      function is matched or not.**
+        - **This should return True or False depending on whether the current
+          function is matched or not.**
 
 ## TODOs
 
