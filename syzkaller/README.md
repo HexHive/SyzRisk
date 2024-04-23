@@ -30,10 +30,8 @@ the same. The example configuration:
 
 ## Note
 
- - It's based on the commit `2b253ced7f2f` (Sep 21, 2022) and selectively
-   applied the "Bluetooth HCI" patch from `6feb842be06b` (Nov 7, 2022) as the
-   corresponding Syzkaller bug caused a too severe slowdown.
+ - It's based on the commit `2b253ced7f2f` (Sep 21, 2022) and selectively applied the "Bluetooth HCI" patch from `6feb842be06b` (Nov 7, 2022) as the corresponding Syzkaller bug caused a too severe slowdown.
 
- - As long as the JSON file follows the same format as the engine-generated one, it'll work just as fine. You can fiddle with different weights (or weighting strategies) using this (if you need to).
+ - As long as the JSON file follows the same format as the engine-generated one, it'll work just as fine. You can fiddle with different weights (or weighting strategies) using this (if you need to). Check out the [weight artifacts](https://github.com/HexHive/SyzRisk/tree/master/artifact/sec8.3-rc_weighting/weights) for a sample weight profile and its format.
 
  - The change is so minimal that it should be able to extract it with one `.patch` file, but this `.patch` would be applicable to _one specific version_ of Syzkaller. I would highly appreciate it if somebody could make this into a _version-generic_ patch that can be applied to most of the recent Syzkaller versions. It should be doable with scripts.
