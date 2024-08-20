@@ -172,8 +172,8 @@ val MATCHERS: Map[String, Matcher] = Map(
  - [Improving the database management.](./todo/db.md)
  - Wrapping the dataset collection step with a front-end script.
 
+</details>
+
 ## Acknowdgement
 
  - Courtesy of Cheolwoo Myung (cwmyung@snu.ac.kr, [@ir0nc0w](https://github.com/ir0nc0w)) for the dataset collection script (`util/live-rc`) 
-
-</details>
