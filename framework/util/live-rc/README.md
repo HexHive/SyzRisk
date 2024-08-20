@@ -47,4 +47,4 @@ gitDB.json liveRC[2022-01-03].json ...
 
 ## Acknowdgement
 
- - Courtesy of Cheolwoo Myung (cwmyung@snu.ac.kr, [@ir0nc0w](https://github.com/ir0nc0w)) for the dataset collection script (`util/live-rc`) 
+ - Mostly written by Cheolwoo Myung (cwmyung@snu.ac.kr, [@ir0nc0w](https://github.com/ir0nc0w)).
