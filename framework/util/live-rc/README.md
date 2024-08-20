@@ -47,4 +47,4 @@ gitDB.json liveRC[2022-01-03].json ...
 
 ## Acknowdgement
 
- - Mostly written by Cheolwoo Myung (cwmyung@snu.ac.kr, [@ir0nc0w](https://github.com/ir0nc0w)).
+ - Cheolwoo Myung (cwmyung@snu.ac.kr, [@ir0nc0w](https://github.com/ir0nc0w)): main developer.
